@@ -1,0 +1,51 @@
+name: libzip x86 XZ differential
+on:
+  push:
+    branches: [ci/xz-clmul-20260923]
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: nih-at/libzip
+          ref: b2da382b9626a66d6084f4efcd216cd6ce24d718
+          path: libzip
+          persist-credentials: false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: tukaani-project/xz
+          ref: a522a226545730551f7e7c2685fab27cf567746c
+          path: xz-old
+          persist-credentials: false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: tukaani-project/xz
+          ref: 4b73f2ec19a99ef465282fbce633e8deb33691b3
+          path: xz-fixed
+          persist-credentials: false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: madler/zlib
+          ref: 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf
+          path: zlib
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.11'
+      - run: python -m pip install nihtest==1.11.1
+      - name: Same-runner x86 comparison
+        run: python compare.py
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: x86-xz-comparison
+          path: evidence
+          if-no-files-found: error
+          retention-days: 14

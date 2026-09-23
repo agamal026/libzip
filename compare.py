@@ -22,6 +22,7 @@ TESTS = {
 }
 XZ_TESTS = {name for name in TESTS if "_xz" in name}
 GENERATOR = ["-G", "Visual Studio 17 2022", "-A", "Win32", "-T", "v142"]
+LIBLZMA_DEFINE = re.compile(r"^#define[ \t]+HAVE_LIBLZMA[ \t]*$", re.MULTILINE)
 RESULT = {"classification": "INCOMPLETE", "commands": [], "variants": {}}
 SOURCE_HEADS = {
     "libzip": "b2da382b9626a66d6084f4efcd216cd6ce24d718",
@@ -101,7 +102,9 @@ def compare_variant(name, xz_source, clmul, zlib_prefix):
         "-DLIBLZMA_INCLUDE_DIR=" + (xz_prefix / "include").as_posix(),
         "-DLIBLZMA_LIBRARY=" + (xz_prefix / "lib/lzma.lib").as_posix(),
     ])
-    if "#define HAVE_LIBLZMA 1" not in (libzip_build / "config.h").read_text(encoding="utf-8"):
+    config = (libzip_build / "config.h").read_text(encoding="utf-8")
+    shutil.copyfile(libzip_build / "config.h", EVIDENCE / (name + "-libzip-config.h"))
+    if not LIBLZMA_DEFINE.search(config):
         raise RuntimeError("Libzip did not enable liblzma")
     run(name + "-libzip-build", ["cmake", "--build", libzip_build, "--config", "Release", "--parallel", "4"])
     environment = os.environ.copy()

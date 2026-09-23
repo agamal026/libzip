@@ -1,6 +1,7 @@
 import ctypes
 import hashlib
 import json
+import ntpath
 import os
 from pathlib import Path
 import re
@@ -58,9 +59,9 @@ def run(name, arguments, *, env=None, require_success=True):
     return completed.returncode
 
 
-def configure(name, source, options):
+def configure(name, source, options, *, env=None):
     build = ROOT / ("build-" + name)
-    run(name + "-configure", ["cmake", "-S", source, "-B", build, *GENERATOR, *options])
+    run(name + "-configure", ["cmake", "-S", source, "-B", build, *GENERATOR, *options], env=env)
     shutil.copyfile(build / "CMakeCache.txt", EVIDENCE / (name + "-CMakeCache.txt"))
     compiler_files = list((build / "CMakeFiles").glob("*/CMakeCCompiler.cmake"))
     if len(compiler_files) != 1:
@@ -82,6 +83,21 @@ def build_install(name, source, options):
     return prefix, build
 
 
+def verify_test_environment(inventory, directories):
+    selected = [test for test in inventory["tests"] if test["name"] in TESTS]
+    if len(selected) != len(TESTS) or {test["name"] for test in selected} != TESTS:
+        raise RuntimeError("Unexpected generated test selection")
+    normalize = lambda value: ntpath.normcase(ntpath.normpath(str(value)))
+    required = {normalize(path) for path in directories}
+    for test in selected:
+        environments = [item["value"] for item in test["properties"] if item["name"] == "ENVIRONMENT"]
+        if len(environments) != 1:
+            raise RuntimeError("Missing or ambiguous generated test environment")
+        paths = [value[5:] for value in environments[0] if value.startswith("PATH=")]
+        if len(paths) != 1 or not required.issubset({normalize(part) for part in paths[0].split(";")}):
+            raise RuntimeError("Generated test PATH omits a pinned dependency directory")
+
+
 def compare_variant(name, xz_source, clmul, zlib_prefix):
     xz_prefix, xz_build = build_install(name + "-xz", ROOT / xz_source, [
         "-DBUILD_SHARED_LIBS=ON", "-DBUILD_TESTING=OFF", "-DXZ_NLS=OFF",
@@ -93,6 +109,11 @@ def compare_variant(name, xz_source, clmul, zlib_prefix):
         raise RuntimeError("CLMUL option was not bound")
     if name == "old-on" and "HAVE_USABLE_CLMUL:INTERNAL=1" not in cache:
         raise RuntimeError("The baseline did not compile the CLMUL path")
+    environment = os.environ.copy()
+    environment["PATH"] = os.pathsep.join([
+        str(xz_prefix / "bin"), str(zlib_prefix / "bin"), environment["PATH"],
+    ])
+    # libzip embeds the configure-time PATH into each CTest definition.
     libzip_build = configure(name + "-libzip", ROOT / "libzip", [
         "-DBUILD_SHARED_LIBS=OFF", "-DBUILD_DOC=OFF", "-DBUILD_EXAMPLES=OFF",
         "-DBUILD_OSSFUZZ=OFF", "-DENABLE_BZIP2=OFF", "-DENABLE_ZSTD=OFF",
@@ -101,16 +122,17 @@ def compare_variant(name, xz_source, clmul, zlib_prefix):
         "-DZLIB_LIBRARY=" + (zlib_prefix / "lib/zlib.lib").as_posix(),
         "-DLIBLZMA_INCLUDE_DIR=" + (xz_prefix / "include").as_posix(),
         "-DLIBLZMA_LIBRARY=" + (xz_prefix / "lib/lzma.lib").as_posix(),
-    ])
+    ], env=environment)
     config = (libzip_build / "config.h").read_text(encoding="utf-8")
     shutil.copyfile(libzip_build / "config.h", EVIDENCE / (name + "-libzip-config.h"))
     if not LIBLZMA_DEFINE.search(config):
         raise RuntimeError("Libzip did not enable liblzma")
     run(name + "-libzip-build", ["cmake", "--build", libzip_build, "--config", "Release", "--parallel", "4"])
-    environment = os.environ.copy()
-    environment["PATH"] = os.pathsep.join([
-        str(xz_prefix / "bin"), str(zlib_prefix / "bin"), environment["PATH"],
-    ])
+    run(name + "-test-inventory", [
+        "ctest", "--test-dir", libzip_build, "-C", "Release", "--show-only=json-v1",
+    ], env=environment)
+    inventory = json.loads((EVIDENCE / (name + "-test-inventory.log")).read_text(encoding="utf-8"))
+    verify_test_environment(inventory, [xz_prefix / "bin", zlib_prefix / "bin"])
     expression = "^(" + "|".join(re.escape(value) for value in sorted(TESTS)) + ")$"
     junit = EVIDENCE / (name + "-tests.xml")
     exit_code = run(name + "-tests", [
@@ -128,6 +150,8 @@ def compare_variant(name, xz_source, clmul, zlib_prefix):
         raise RuntimeError("A selected test has inconsistent status and failure elements")
     failures = sorted(case.get("name") for case in cases if case.find("failure") is not None)
     outputs = {case.get("name"): case.findtext("system-out", "") for case in cases}
+    if any("3221225781" in output for output in outputs.values()):
+        raise RuntimeError("A test child could not load a runtime DLL; no behavioral attribution")
     libraries = sorted(xz_prefix.rglob("*.dll"))
     RESULT["variants"][name] = {
         "ctest_exit_code": exit_code, "test_count": len(cases), "failures": failures,

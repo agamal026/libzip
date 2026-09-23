@@ -5,8 +5,9 @@ This isolated diagnostic supports the Windows CI investigation requested in
 the existing pull-request branch.
 
 Mainline AppVeyor build [1.0.1108](https://ci.appveyor.com/project/nih-at/libzip/builds/54765284)
-ran 193 tests on x86 with MSVC 19.29.30159.0 and liblzma 5.8.1. Only the two
-XZ conversion tests failed. XZ 5.8.2's release notes describe a workaround for
+reported 193 x86 test cases: 186 passed, two failed and five skipped, with
+MSVC 19.29.30159.0 and liblzma 5.8.1. Only the two XZ conversion tests failed.
+XZ 5.8.2's release notes describe a workaround for
 old-MSVC 32-bit CRC miscompilation; this comparison tests that explanation.
 
 One Windows 2022 runner builds all dependencies with the v142 toolset and
@@ -24,6 +25,13 @@ Infrastructure errors, extra failure bits and different failures do not count.
 Commands, timings, source
 heads, compiler metadata, CMake caches, DLL hashes and JUnit results are
 uploaded as a single artifact even after failure.
+
+The generated CTest environments must include each variant's dependency DLL
+directories. They are provided at configure time because libzip records PATH
+then, overriding the later test invocation's PATH. A DLL-loading failure is
+setup failure, not evidence about compression behavior. The first two runs
+are retained: run 35829998405 stopped at an incorrect feature-macro guard;
+run 35830895109 reached tests but failed DLL loading in all three variants.
 
 This isolates the dependency behavior on the recorded GitHub runner. The
 AppVeyor image, full optional-codec matrix and ARM SDK problem need their own

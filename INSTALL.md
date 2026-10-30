@@ -83,6 +83,12 @@ If you want to customize the build, you can pass additional parameters to cmake 
 `BUILD_SHARED_LIBS`
 : set to `ON` or `OFF` to enable/disable building of shared libraries, defaults to `ON`
 
+`BUILD_REGRESS`
+: build regression tests, defaults to `ON`. Tests are disabled with a warning if their required tools are unavailable.
+
+`REQUIRE_TEST_DEPENDENCIES`
+: fail configuration if requested regression tests cannot be run, defaults to `OFF`. With `BUILD_REGRESS=ON`, this requires `BUILD_TOOLS=ON` and a runnable `nihtest` installation (including its Python runtime). Use `-DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON` in CI or when packaging with mandatory tests. Explicitly setting `BUILD_REGRESS=OFF` disables these checks. Optional compression and encryption libraries remain optional; tests for unavailable features can still be skipped.
+
 `CMAKE_INSTALL_PREFIX`
 : for setting the installation path
 

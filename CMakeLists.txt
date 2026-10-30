@@ -31,6 +31,7 @@ option(LIMIT_LZMA_WINDOW "Set limit for LZMA window size. Without a limit, LZMA 
 
 option(BUILD_TOOLS "Build tools in the src directory (zipcmp, zipmerge, ziptool)" ON)
 option(BUILD_REGRESS "Build regression tests" ON)
+option(REQUIRE_TEST_DEPENDENCIES "Fail if regression test dependencies are missing" OFF)
 option(BUILD_OSSFUZZ "Build fuzzers for ossfuzz" ON)
 option(BUILD_EXAMPLES "Build examples" ON)
 option(BUILD_DOC "Build documentation" ON)
@@ -361,6 +362,9 @@ if(BUILD_TOOLS)
   ADD_SUBDIRECTORY(src)
 else(BUILD_TOOLS)
   if(BUILD_REGRESS)
+    if(REQUIRE_TEST_DEPENDENCIES)
+      message(FATAL_ERROR "Regression tests require BUILD_TOOLS=ON; enable tools or disable BUILD_REGRESS")
+    endif()
     message(WARNING "-- tools build has been disabled, but they are needed for regression tests; regression testing disabled")
     set(BUILD_REGRESS OFF)
   endif(BUILD_REGRESS)
@@ -369,11 +373,24 @@ endif()
 find_program(NIHTEST nihtest)
 
 if(BUILD_REGRESS AND NOT NIHTEST)
+  if(REQUIRE_TEST_DEPENDENCIES)
+    message(FATAL_ERROR "Regression tests require nihtest; install it or disable BUILD_REGRESS")
+  endif()
   message(WARNING "-- nihtest not found, regression testing disabled")
   set(BUILD_REGRESS OFF)
 endif()
 
 if(BUILD_REGRESS)
+  if(REQUIRE_TEST_DEPENDENCIES)
+    execute_process(COMMAND "${NIHTEST}" --version
+      RESULT_VARIABLE NIHTEST_RESULT
+      OUTPUT_QUIET
+      ERROR_VARIABLE NIHTEST_ERROR
+      TIMEOUT 30)
+    if(NOT "${NIHTEST_RESULT}" STREQUAL "0")
+      message(FATAL_ERROR "Regression tests require a working nihtest executable: ${NIHTEST}\nnihtest --version failed (${NIHTEST_RESULT})\n${NIHTEST_ERROR}")
+    endif()
+  endif()
   include(CTest)
   add_subdirectory(regress)
 endif()

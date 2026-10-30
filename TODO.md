@@ -21,7 +21,6 @@
 ### CI
 
 - Add CI build with sanitizers enabled.
-- Add cmake option to fail if dependencies for tests are missing, use in CI builds.
 
 ### Specific Tests
 

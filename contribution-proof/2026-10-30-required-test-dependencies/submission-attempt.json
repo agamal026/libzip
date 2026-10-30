@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-30T16:55:44Z",
+  "repository": "nih-at/libzip",
+  "head": "agamal026:ci/require-test-dependencies-20261030",
+  "base": "main",
+  "title": "Add opt-in configure-time checks for regression test dependencies",
+  "source_commit": "c8eb979d0c0c5e4a9612d07c3849ec677659b165",
+  "proof_commit": "2eb9279fa5a62c1007d685587dbe69fc68582328",
+  "action": "github_create_pull_request",
+  "result": "denied",
+  "status": 403,
+  "message": "Resource not accessible by integration",
+  "upstream_pr": null,
+  "readback": "Targeted all-state PR query for this exact head returned an empty list.",
+  "boundary": "Do not retry this upstream PR mutation or repackage the same contribution through another publication route without a new supported authorization/capability change."
+}

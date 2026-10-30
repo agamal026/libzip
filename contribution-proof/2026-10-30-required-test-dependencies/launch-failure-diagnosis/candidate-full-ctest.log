@@ -1,0 +1,1820 @@
+UpdateCTestConfiguration  from :<WORKSPACE>/libzip-evidence-sustained/full-validation/build/DartConfiguration.tcl
+Parse Config file:<WORKSPACE>/libzip-evidence-sustained/full-validation/build/DartConfiguration.tcl
+Test project <WORKSPACE>/libzip-evidence-sustained/full-validation/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+        Start   1: add_dir.test
+
+1: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_dir.test"
+1: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+1: Environment variables: 
+1:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+1: Test timeout computed to be: 1500
+  1/199 Test   #1: add_dir.test .....................................   Passed    0.05 sec
+test 2
+        Start   2: add_from_buffer.test
+
+2: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_buffer.test"
+2: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+2: Environment variables: 
+2:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+2: Test timeout computed to be: 1500
+  2/199 Test   #2: add_from_buffer.test .............................   Passed    0.04 sec
+test 3
+        Start   3: add_from_file.test
+
+3: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_file.test"
+3: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+3: Environment variables: 
+3:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+3: Test timeout computed to be: 1500
+  3/199 Test   #3: add_from_file.test ...............................   Passed    0.05 sec
+test 4
+        Start   4: add_from_file_duplicate.test
+
+4: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_file_duplicate.test"
+4: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+4: Environment variables: 
+4:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+4: Test timeout computed to be: 1500
+  4/199 Test   #4: add_from_file_duplicate.test .....................   Passed    0.04 sec
+test 5
+        Start   5: add_from_file_twice_duplicate.test
+
+5: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_file_twice_duplicate.test"
+5: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+5: Environment variables: 
+5:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+5: Test timeout computed to be: 1500
+  5/199 Test   #5: add_from_file_twice_duplicate.test ...............   Passed    0.04 sec
+test 6
+        Start   6: add_from_file_unchange.test
+
+6: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_file_unchange.test"
+6: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+6: Environment variables: 
+6:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+6: Test timeout computed to be: 1500
+  6/199 Test   #6: add_from_file_unchange.test ......................   Passed    0.05 sec
+test 7
+        Start   7: add_from_filep.test
+
+7: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_filep.test"
+7: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+7: Environment variables: 
+7:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+7: Test timeout computed to be: 1500
+  7/199 Test   #7: add_from_filep.test ..............................   Passed    0.05 sec
+test 8
+        Start   8: add_from_stdin.test
+
+8: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_stdin.test"
+8: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+8: Environment variables: 
+8:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+8: Test timeout computed to be: 1500
+  8/199 Test   #8: add_from_stdin.test ..............................   Passed    0.05 sec
+test 9
+        Start   9: add_from_zip_closed.test
+
+9: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_closed.test"
+9: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+9: Environment variables: 
+9:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+9: Test timeout computed to be: 1500
+  9/199 Test   #9: add_from_zip_closed.test .........................   Passed    0.05 sec
+test 10
+        Start  10: add_from_zip_deflated.test
+
+10: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_deflated.test"
+10: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+10: Environment variables: 
+10:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+10: Test timeout computed to be: 1500
+ 10/199 Test  #10: add_from_zip_deflated.test .......................   Passed    0.05 sec
+test 11
+        Start  11: add_from_zip_deflated2.test
+
+11: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_deflated2.test"
+11: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+11: Environment variables: 
+11:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+11: Test timeout computed to be: 1500
+ 11/199 Test  #11: add_from_zip_deflated2.test ......................   Passed    0.05 sec
+test 12
+        Start  12: add_from_zip_partial_deflated.test
+
+12: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_partial_deflated.test"
+12: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+12: Environment variables: 
+12:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+12: Test timeout computed to be: 1500
+ 12/199 Test  #12: add_from_zip_partial_deflated.test ...............   Passed    0.05 sec
+test 13
+        Start  13: add_from_zip_partial_stored.test
+
+13: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_partial_stored.test"
+13: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+13: Environment variables: 
+13:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+13: Test timeout computed to be: 1500
+ 13/199 Test  #13: add_from_zip_partial_stored.test .................   Passed    0.05 sec
+test 14
+        Start  14: add_from_zip_stored.test
+
+14: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_from_zip_stored.test"
+14: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+14: Environment variables: 
+14:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+14: Test timeout computed to be: 1500
+ 14/199 Test  #14: add_from_zip_stored.test .........................   Passed    0.04 sec
+test 15
+        Start  15: add_stored.test
+
+15: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_stored.test"
+15: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+15: Environment variables: 
+15:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+15: Test timeout computed to be: 1500
+ 15/199 Test  #15: add_stored.test ..................................   Passed    0.06 sec
+test 16
+        Start  16: add_stored_in_memory.test
+
+16: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "add_stored_in_memory.test"
+16: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+16: Environment variables: 
+16:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+16: Test timeout computed to be: 1500
+ 16/199 Test  #16: add_stored_in_memory.test ........................   Passed    0.04 sec
+test 17
+        Start  17: buffer-fragment-read.test
+
+17: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "buffer-fragment-read.test"
+17: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+17: Environment variables: 
+17:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+17: Test timeout computed to be: 1500
+ 17/199 Test  #17: buffer-fragment-read.test ........................   Passed    0.05 sec
+test 18
+        Start  18: buffer-fragment-write.test
+
+18: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "buffer-fragment-write.test"
+18: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+18: Environment variables: 
+18:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+18: Test timeout computed to be: 1500
+ 18/199 Test  #18: buffer-fragment-write.test .......................   Passed    0.04 sec
+test 19
+        Start  19: cancel_45.test
+
+19: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "cancel_45.test"
+19: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+19: Environment variables: 
+19:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+19: Test timeout computed to be: 1500
+ 19/199 Test  #19: cancel_45.test ...................................   Passed    0.04 sec
+test 20
+        Start  20: cancel_90.test
+
+20: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "cancel_90.test"
+20: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+20: Environment variables: 
+20:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+20: Test timeout computed to be: 1500
+ 20/199 Test  #20: cancel_90.test ...................................   Passed    0.05 sec
+test 21
+        Start  21: changing-size-decreases-fixed.test
+
+21: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "changing-size-decreases-fixed.test"
+21: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+21: Environment variables: 
+21:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+21: Test timeout computed to be: 1500
+ 21/199 Test  #21: changing-size-decreases-fixed.test ...............   Passed    0.06 sec
+test 22
+        Start  22: changing-size-decreases.test
+
+22: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "changing-size-decreases.test"
+22: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+22: Environment variables: 
+22:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+22: Test timeout computed to be: 1500
+ 22/199 Test  #22: changing-size-decreases.test .....................   Passed    0.05 sec
+test 23
+        Start  23: changing-size-increases-fixed.test
+
+23: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "changing-size-increases-fixed.test"
+23: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+23: Environment variables: 
+23:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+23: Test timeout computed to be: 1500
+ 23/199 Test  #23: changing-size-increases-fixed.test ...............   Passed    0.05 sec
+test 24
+        Start  24: changing-size-increases-unchecked.test
+
+24: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "changing-size-increases-unchecked.test"
+24: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+24: Environment variables: 
+24:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+24: Test timeout computed to be: 1500
+ 24/199 Test  #24: changing-size-increases-unchecked.test ...........   Passed    0.05 sec
+test 25
+        Start  25: changing-size-increases.test
+
+25: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "changing-size-increases.test"
+25: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+25: Environment variables: 
+25:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+25: Test timeout computed to be: 1500
+ 25/199 Test  #25: changing-size-increases.test .....................   Passed    0.08 sec
+test 26
+        Start  26: check_torrentzip_fail.test
+
+26: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "check_torrentzip_fail.test"
+26: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+26: Environment variables: 
+26:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+26: Test timeout computed to be: 1500
+ 26/199 Test  #26: check_torrentzip_fail.test .......................   Passed    0.05 sec
+test 27
+        Start  27: check_torrentzip_modified.test
+
+27: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "check_torrentzip_modified.test"
+27: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+27: Environment variables: 
+27:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+27: Test timeout computed to be: 1500
+ 27/199 Test  #27: check_torrentzip_modified.test ...................   Passed    0.04 sec
+test 28
+        Start  28: check_torrentzip_success.test
+
+28: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "check_torrentzip_success.test"
+28: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+28: Environment variables: 
+28:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+28: Test timeout computed to be: 1500
+ 28/199 Test  #28: check_torrentzip_success.test ....................   Passed    0.06 sec
+test 29
+        Start  29: clone-buffer-add.test
+
+29: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-buffer-add.test"
+29: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+29: Environment variables: 
+29:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+29: Test timeout computed to be: 1500
+ 29/199 Test  #29: clone-buffer-add.test ............................   Passed    0.05 sec
+test 30
+        Start  30: clone-buffer-delete.test
+
+30: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-buffer-delete.test"
+30: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+30: Environment variables: 
+30:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+30: Test timeout computed to be: 1500
+ 30/199 Test  #30: clone-buffer-delete.test .........................   Passed    0.05 sec
+test 31
+        Start  31: clone-buffer-replace.test
+
+31: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-buffer-replace.test"
+31: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+31: Environment variables: 
+31:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+31: Test timeout computed to be: 1500
+ 31/199 Test  #31: clone-buffer-replace.test ........................   Passed    0.05 sec
+test 32
+        Start  32: clone-fs-add.test
+
+32: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-fs-add.test"
+32: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+32: Environment variables: 
+32:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+32: Test timeout computed to be: 1500
+ 32/199 Test  #32: clone-fs-add.test ................................***Skipped   0.05 sec
+test 33
+        Start  33: clone-fs-delete.test
+
+33: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-fs-delete.test"
+33: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+33: Environment variables: 
+33:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+33: Test timeout computed to be: 1500
+ 33/199 Test  #33: clone-fs-delete.test .............................***Skipped   0.04 sec
+test 34
+        Start  34: clone-fs-replace.test
+
+34: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "clone-fs-replace.test"
+34: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+34: Environment variables: 
+34:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+34: Test timeout computed to be: 1500
+ 34/199 Test  #34: clone-fs-replace.test ............................***Skipped   0.04 sec
+test 35
+        Start  35: cm-default.test
+
+35: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "cm-default.test"
+35: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+35: Environment variables: 
+35:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+35: Test timeout computed to be: 1500
+ 35/199 Test  #35: cm-default.test ..................................   Passed    0.05 sec
+test 36
+        Start  36: convert_to_torrentzip.test
+
+36: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "convert_to_torrentzip.test"
+36: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+36: Environment variables: 
+36:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+36: Test timeout computed to be: 1500
+ 36/199 Test  #36: convert_to_torrentzip.test .......................   Passed    0.05 sec
+test 37
+        Start  37: convert_to_torrentzip_ef.test
+
+37: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "convert_to_torrentzip_ef.test"
+37: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+37: Environment variables: 
+37:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+37: Test timeout computed to be: 1500
+ 37/199 Test  #37: convert_to_torrentzip_ef.test ....................   Passed    0.04 sec
+test 38
+        Start  38: count_entries.test
+
+38: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "count_entries.test"
+38: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+38: Environment variables: 
+38:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+38: Test timeout computed to be: 1500
+ 38/199 Test  #38: count_entries.test ...............................   Passed    0.24 sec
+test 39
+        Start  39: create_empty_keep.test
+
+39: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "create_empty_keep.test"
+39: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+39: Environment variables: 
+39:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+39: Test timeout computed to be: 1500
+ 39/199 Test  #39: create_empty_keep.test ...........................   Passed    0.04 sec
+test 40
+        Start  40: crypto_clear.test
+
+40: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "crypto_clear.test"
+40: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+40: Environment variables: 
+40:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+40: Test timeout computed to be: 1500
+ 40/199 Test  #40: crypto_clear.test ................................   Passed    0.04 sec
+test 41
+        Start  41: decrypt-correct-password-aes128.test
+
+41: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-correct-password-aes128.test"
+41: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+41: Environment variables: 
+41:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+41: Test timeout computed to be: 1500
+ 41/199 Test  #41: decrypt-correct-password-aes128.test .............   Passed    0.05 sec
+test 42
+        Start  42: decrypt-correct-password-aes192.test
+
+42: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-correct-password-aes192.test"
+42: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+42: Environment variables: 
+42:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+42: Test timeout computed to be: 1500
+ 42/199 Test  #42: decrypt-correct-password-aes192.test .............   Passed    0.05 sec
+test 43
+        Start  43: decrypt-correct-password-aes256.test
+
+43: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-correct-password-aes256.test"
+43: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+43: Environment variables: 
+43:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+43: Test timeout computed to be: 1500
+ 43/199 Test  #43: decrypt-correct-password-aes256.test .............   Passed    0.06 sec
+test 44
+        Start  44: decrypt-correct-password-pkware-2.test
+
+44: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-correct-password-pkware-2.test"
+44: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+44: Environment variables: 
+44:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+44: Test timeout computed to be: 1500
+ 44/199 Test  #44: decrypt-correct-password-pkware-2.test ...........   Passed    0.04 sec
+test 45
+        Start  45: decrypt-correct-password-pkware.test
+
+45: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-correct-password-pkware.test"
+45: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+45: Environment variables: 
+45:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+45: Test timeout computed to be: 1500
+ 45/199 Test  #45: decrypt-correct-password-pkware.test .............   Passed    0.05 sec
+test 46
+        Start  46: decrypt-empty-file-badmac-aes256.test
+
+46: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-empty-file-badmac-aes256.test"
+46: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+46: Environment variables: 
+46:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+46: Test timeout computed to be: 1500
+ 46/199 Test  #46: decrypt-empty-file-badmac-aes256.test ............   Passed    0.05 sec
+test 47
+        Start  47: decrypt-empty-file-pkware.test
+
+47: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-empty-file-pkware.test"
+47: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+47: Environment variables: 
+47:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+47: Test timeout computed to be: 1500
+ 47/199 Test  #47: decrypt-empty-file-pkware.test ...................   Passed    0.04 sec
+test 48
+        Start  48: decrypt-no-password-aes256.test
+
+48: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-no-password-aes256.test"
+48: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+48: Environment variables: 
+48:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+48: Test timeout computed to be: 1500
+ 48/199 Test  #48: decrypt-no-password-aes256.test ..................   Passed    0.04 sec
+test 49
+        Start  49: decrypt-wrong-password-aes128.test
+
+49: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-wrong-password-aes128.test"
+49: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+49: Environment variables: 
+49:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+49: Test timeout computed to be: 1500
+ 49/199 Test  #49: decrypt-wrong-password-aes128.test ...............   Passed    0.04 sec
+test 50
+        Start  50: decrypt-wrong-password-aes192.test
+
+50: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-wrong-password-aes192.test"
+50: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+50: Environment variables: 
+50:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+50: Test timeout computed to be: 1500
+ 50/199 Test  #50: decrypt-wrong-password-aes192.test ...............   Passed    0.04 sec
+test 51
+        Start  51: decrypt-wrong-password-aes256.test
+
+51: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-wrong-password-aes256.test"
+51: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+51: Environment variables: 
+51:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+51: Test timeout computed to be: 1500
+ 51/199 Test  #51: decrypt-wrong-password-aes256.test ...............   Passed    0.04 sec
+test 52
+        Start  52: decrypt-wrong-password-pkware-2.test
+
+52: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-wrong-password-pkware-2.test"
+52: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+52: Environment variables: 
+52:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+52: Test timeout computed to be: 1500
+ 52/199 Test  #52: decrypt-wrong-password-pkware-2.test .............   Passed    0.06 sec
+test 53
+        Start  53: decrypt-wrong-password-pkware.test
+
+53: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "decrypt-wrong-password-pkware.test"
+53: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+53: Environment variables: 
+53:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+53: Test timeout computed to be: 1500
+ 53/199 Test  #53: decrypt-wrong-password-pkware.test ...............   Passed    0.04 sec
+test 54
+        Start  54: delete_add_same.test
+
+54: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_add_same.test"
+54: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+54: Environment variables: 
+54:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+54: Test timeout computed to be: 1500
+ 54/199 Test  #54: delete_add_same.test .............................   Passed    0.04 sec
+test 55
+        Start  55: delete_invalid.test
+
+55: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_invalid.test"
+55: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+55: Environment variables: 
+55:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+55: Test timeout computed to be: 1500
+ 55/199 Test  #55: delete_invalid.test ..............................   Passed    0.05 sec
+test 56
+        Start  56: delete_last.test
+
+56: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_last.test"
+56: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+56: Environment variables: 
+56:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+56: Test timeout computed to be: 1500
+ 56/199 Test  #56: delete_last.test .................................   Passed    0.04 sec
+test 57
+        Start  57: delete_last_keep.test
+
+57: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_last_keep.test"
+57: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+57: Environment variables: 
+57:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+57: Test timeout computed to be: 1500
+ 57/199 Test  #57: delete_last_keep.test ............................   Passed    0.04 sec
+test 58
+        Start  58: delete_multiple_last.test
+
+58: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_multiple_last.test"
+58: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+58: Environment variables: 
+58:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+58: Test timeout computed to be: 1500
+ 58/199 Test  #58: delete_multiple_last.test ........................   Passed    0.04 sec
+test 59
+        Start  59: delete_multiple_partial.test
+
+59: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_multiple_partial.test"
+59: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+59: Environment variables: 
+59:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+59: Test timeout computed to be: 1500
+ 59/199 Test  #59: delete_multiple_partial.test .....................   Passed    0.05 sec
+test 60
+        Start  60: delete_renamed_rename.test
+
+60: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "delete_renamed_rename.test"
+60: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+60: Environment variables: 
+60:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+60: Test timeout computed to be: 1500
+ 60/199 Test  #60: delete_renamed_rename.test .......................   Passed    0.05 sec
+test 61
+        Start  61: encrypt.test
+
+61: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encrypt.test"
+61: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+61: Environment variables: 
+61:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+61: Test timeout computed to be: 1500
+ 61/199 Test  #61: encrypt.test .....................................   Passed    0.04 sec
+test 62
+        Start  62: encryption-nonrandom-aes128.test
+
+62: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-aes128.test"
+62: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+62: Environment variables: 
+62:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+62: Test timeout computed to be: 1500
+ 62/199 Test  #62: encryption-nonrandom-aes128.test .................   Passed    0.04 sec
+test 63
+        Start  63: encryption-nonrandom-aes192.test
+
+63: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-aes192.test"
+63: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+63: Environment variables: 
+63:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+63: Test timeout computed to be: 1500
+ 63/199 Test  #63: encryption-nonrandom-aes192.test .................   Passed    0.04 sec
+test 64
+        Start  64: encryption-nonrandom-aes256-large.test
+
+64: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-aes256-large.test"
+64: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+64: Environment variables: 
+64:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+64: Test timeout computed to be: 1500
+ 64/199 Test  #64: encryption-nonrandom-aes256-large.test ...........   Passed    0.04 sec
+test 65
+        Start  65: encryption-nonrandom-aes256.test
+
+65: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-aes256.test"
+65: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+65: Environment variables: 
+65:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+65: Test timeout computed to be: 1500
+ 65/199 Test  #65: encryption-nonrandom-aes256.test .................   Passed    0.04 sec
+test 66
+        Start  66: encryption-nonrandom-pkware-2.test
+
+66: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-pkware-2.test"
+66: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+66: Environment variables: 
+66:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+66: Test timeout computed to be: 1500
+ 66/199 Test  #66: encryption-nonrandom-pkware-2.test ...............   Passed    0.04 sec
+test 67
+        Start  67: encryption-nonrandom-pkware.test
+
+67: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-nonrandom-pkware.test"
+67: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+67: Environment variables: 
+67:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+67: Test timeout computed to be: 1500
+ 67/199 Test  #67: encryption-nonrandom-pkware.test .................   Passed    0.04 sec
+test 68
+        Start  68: encryption-random-aes128.test
+
+68: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-random-aes128.test"
+68: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+68: Environment variables: 
+68:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+68: Test timeout computed to be: 1500
+ 68/199 Test  #68: encryption-random-aes128.test ....................   Passed    0.04 sec
+test 69
+        Start  69: encryption-random-pkware.test
+
+69: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-random-pkware.test"
+69: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+69: Environment variables: 
+69:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+69: Test timeout computed to be: 1500
+ 69/199 Test  #69: encryption-random-pkware.test ....................   Passed    0.04 sec
+test 70
+        Start  70: encryption-remove.test
+
+70: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-remove.test"
+70: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+70: Environment variables: 
+70:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+70: Test timeout computed to be: 1500
+ 70/199 Test  #70: encryption-remove.test ...........................   Passed    0.05 sec
+test 71
+        Start  71: encryption-stat.test
+
+71: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "encryption-stat.test"
+71: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+71: Environment variables: 
+71:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+71: Test timeout computed to be: 1500
+ 71/199 Test  #71: encryption-stat.test .............................   Passed    0.04 sec
+test 72
+        Start  72: exact-read-integrity.test
+
+72: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "exact-read-integrity.test"
+72: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+72: Environment variables: 
+72:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+72: Test timeout computed to be: 1500
+ 72/199 Test  #72: exact-read-integrity.test ........................   Passed    0.06 sec
+test 73
+        Start  73: extra_add.test
+
+73: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_add.test"
+73: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+73: Environment variables: 
+73:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+73: Test timeout computed to be: 1500
+ 73/199 Test  #73: extra_add.test ...................................   Passed    0.04 sec
+test 74
+        Start  74: extra_add_multiple.test
+
+74: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_add_multiple.test"
+74: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+74: Environment variables: 
+74:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+74: Test timeout computed to be: 1500
+ 74/199 Test  #74: extra_add_multiple.test ..........................   Passed    0.04 sec
+test 75
+        Start  75: extra_count.test
+
+75: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_count.test"
+75: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+75: Environment variables: 
+75:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+75: Test timeout computed to be: 1500
+ 75/199 Test  #75: extra_count.test .................................   Passed    0.04 sec
+test 76
+        Start  76: extra_count_by_id.test
+
+76: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_count_by_id.test"
+76: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+76: Environment variables: 
+76:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+76: Test timeout computed to be: 1500
+ 76/199 Test  #76: extra_count_by_id.test ...........................   Passed    0.05 sec
+test 77
+        Start  77: extra_count_ignore_zip64.test
+
+77: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_count_ignore_zip64.test"
+77: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+77: Environment variables: 
+77:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+77: Test timeout computed to be: 1500
+ 77/199 Test  #77: extra_count_ignore_zip64.test ....................   Passed    0.05 sec
+test 78
+        Start  78: extra_delete.test
+
+78: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_delete.test"
+78: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+78: Environment variables: 
+78:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+78: Test timeout computed to be: 1500
+ 78/199 Test  #78: extra_delete.test ................................   Passed    0.05 sec
+test 79
+        Start  79: extra_delete_by_id.test
+
+79: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_delete_by_id.test"
+79: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+79: Environment variables: 
+79:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+79: Test timeout computed to be: 1500
+ 79/199 Test  #79: extra_delete_by_id.test ..........................   Passed    0.05 sec
+test 80
+        Start  80: extra_field_align.test
+
+80: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_field_align.test"
+80: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+80: Environment variables: 
+80:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+80: Test timeout computed to be: 1500
+ 80/199 Test  #80: extra_field_align.test ...........................   Passed    0.04 sec
+test 81
+        Start  81: extra_get.test
+
+81: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_get.test"
+81: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+81: Environment variables: 
+81:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+81: Test timeout computed to be: 1500
+ 81/199 Test  #81: extra_get.test ...................................   Passed    0.05 sec
+test 82
+        Start  82: extra_get_by_id.test
+
+82: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_get_by_id.test"
+82: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+82: Environment variables: 
+82:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+82: Test timeout computed to be: 1500
+ 82/199 Test  #82: extra_get_by_id.test .............................   Passed    0.05 sec
+test 83
+        Start  83: extra_set.test
+
+83: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_set.test"
+83: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+83: Environment variables: 
+83:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+83: Test timeout computed to be: 1500
+ 83/199 Test  #83: extra_set.test ...................................   Passed    0.05 sec
+test 84
+        Start  84: extra_set_invalid_index.test
+
+84: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_set_invalid_index.test"
+84: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+84: Environment variables: 
+84:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+84: Test timeout computed to be: 1500
+ 84/199 Test  #84: extra_set_invalid_index.test .....................   Passed    0.05 sec
+test 85
+        Start  85: extra_set_modify_c.test
+
+85: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_set_modify_c.test"
+85: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+85: Environment variables: 
+85:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+85: Test timeout computed to be: 1500
+ 85/199 Test  #85: extra_set_modify_c.test ..........................   Passed    0.05 sec
+test 86
+        Start  86: extra_set_modify_l.test
+
+86: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "extra_set_modify_l.test"
+86: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+86: Environment variables: 
+86:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+86: Test timeout computed to be: 1500
+ 86/199 Test  #86: extra_set_modify_l.test ..........................   Passed    0.05 sec
+test 87
+        Start  87: fdopen_ok.test
+
+87: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fdopen_ok.test"
+87: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+87: Environment variables: 
+87:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+87: Test timeout computed to be: 1500
+ 87/199 Test  #87: fdopen_ok.test ...................................   Passed    0.05 sec
+test 88
+        Start  88: file_comment_encmismatch.test
+
+88: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "file_comment_encmismatch.test"
+88: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+88: Environment variables: 
+88:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+88: Test timeout computed to be: 1500
+ 88/199 Test  #88: file_comment_encmismatch.test ....................   Passed    0.06 sec
+test 89
+        Start  89: filep_error.test
+
+89: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "filep_error.test"
+89: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+89: Environment variables: 
+89:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+89: Test timeout computed to be: 1500
+ 89/199 Test  #89: filep_error.test .................................   Passed    0.05 sec
+test 90
+        Start  90: fopen_multiple.test
+
+90: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fopen_multiple.test"
+90: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+90: Environment variables: 
+90:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+90: Test timeout computed to be: 1500
+ 90/199 Test  #90: fopen_multiple.test ..............................   Passed    0.05 sec
+test 91
+        Start  91: fopen_multiple_reopen.test
+
+91: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fopen_multiple_reopen.test"
+91: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+91: Environment variables: 
+91:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+91: Test timeout computed to be: 1500
+ 91/199 Test  #91: fopen_multiple_reopen.test .......................   Passed    0.07 sec
+test 92
+        Start  92: fopen_unchanged.test
+
+92: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fopen_unchanged.test"
+92: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+92: Environment variables: 
+92:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+92: Test timeout computed to be: 1500
+ 92/199 Test  #92: fopen_unchanged.test .............................   Passed    0.05 sec
+test 93
+        Start  93: fread.test
+
+93: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fread.test"
+93: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+93: Environment variables: 
+93:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+93: Test timeout computed to be: 1500
+ 93/199 Test  #93: fread.test .......................................   Passed    0.05 sec
+test 94
+        Start  94: fseek_deflated.test
+
+94: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fseek_deflated.test"
+94: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+94: Environment variables: 
+94:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+94: Test timeout computed to be: 1500
+ 94/199 Test  #94: fseek_deflated.test ..............................   Passed    0.05 sec
+test 95
+        Start  95: fseek_fail.test
+
+95: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fseek_fail.test"
+95: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+95: Environment variables: 
+95:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+95: Test timeout computed to be: 1500
+ 95/199 Test  #95: fseek_fail.test ..................................   Passed    0.05 sec
+test 96
+        Start  96: fseek_ok.test
+
+96: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "fseek_ok.test"
+96: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+96: Environment variables: 
+96:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+96: Test timeout computed to be: 1500
+ 96/199 Test  #96: fseek_ok.test ....................................   Passed    0.05 sec
+test 97
+        Start  97: get_comment.test
+
+97: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "get_comment.test"
+97: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+97: Environment variables: 
+97:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+97: Test timeout computed to be: 1500
+ 97/199 Test  #97: get_comment.test .................................   Passed    0.06 sec
+test 98
+        Start  98: get_comment_long.test
+
+98: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "get_comment_long.test"
+98: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+98: Environment variables: 
+98:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+98: Test timeout computed to be: 1500
+ 98/199 Test  #98: get_comment_long.test ............................   Passed    0.05 sec
+test 99
+        Start  99: hmac-error.test
+
+99: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "hmac-error.test"
+99: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+99: Environment variables: 
+99:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+99: Test timeout computed to be: 1500
+ 99/199 Test  #99: hmac-error.test ..................................   Passed    0.06 sec
+test 100
+        Start 100: junk_at_end.test
+
+100: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "junk_at_end.test"
+100: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+100: Environment variables: 
+100:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+100: Test timeout computed to be: 1500
+100/199 Test #100: junk_at_end.test .................................   Passed    0.04 sec
+test 101
+        Start 101: junk_at_start.test
+
+101: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "junk_at_start.test"
+101: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+101: Environment variables: 
+101:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+101: Test timeout computed to be: 1500
+101/199 Test #101: junk_at_start.test ...............................   Passed    0.05 sec
+test 102
+        Start 102: mtime-dstpoint.test
+
+102: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "mtime-dstpoint.test"
+102: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+102: Environment variables: 
+102:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+102: Test timeout computed to be: 1500
+102/199 Test #102: mtime-dstpoint.test ..............................   Passed    0.04 sec
+test 103
+        Start 103: mtime-post-dstpoint.test
+
+103: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "mtime-post-dstpoint.test"
+103: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+103: Environment variables: 
+103:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+103: Test timeout computed to be: 1500
+103/199 Test #103: mtime-post-dstpoint.test .........................   Passed    0.06 sec
+test 104
+        Start 104: mtime-pre-dstpoint.test
+
+104: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "mtime-pre-dstpoint.test"
+104: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+104: Environment variables: 
+104:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+104: Test timeout computed to be: 1500
+104/199 Test #104: mtime-pre-dstpoint.test ..........................   Passed    0.05 sec
+test 105
+        Start 105: name_locate-cp437.test
+
+105: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "name_locate-cp437.test"
+105: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+105: Environment variables: 
+105:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+105: Test timeout computed to be: 1500
+105/199 Test #105: name_locate-cp437.test ...........................   Passed    0.06 sec
+test 106
+        Start 106: name_locate-utf8.test
+
+106: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "name_locate-utf8.test"
+106: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+106: Environment variables: 
+106:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+106: Test timeout computed to be: 1500
+106/199 Test #106: name_locate-utf8.test ............................   Passed    0.05 sec
+test 107
+        Start 107: name_locate.test
+
+107: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "name_locate.test"
+107: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+107: Environment variables: 
+107:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+107: Test timeout computed to be: 1500
+107/199 Test #107: name_locate.test .................................   Passed    0.05 sec
+test 108
+        Start 108: open_archive_comment_wrong.test
+
+108: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_archive_comment_wrong.test"
+108: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+108: Environment variables: 
+108:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+108: Test timeout computed to be: 1500
+108/199 Test #108: open_archive_comment_wrong.test ..................   Passed    0.05 sec
+test 109
+        Start 109: open_cons_extrabytes.test
+
+109: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_cons_extrabytes.test"
+109: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+109: Environment variables: 
+109:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+109: Test timeout computed to be: 1500
+109/199 Test #109: open_cons_extrabytes.test ........................   Passed    0.04 sec
+test 110
+        Start 110: open_empty.test
+
+110: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_empty.test"
+110: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+110: Environment variables: 
+110:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+110: Test timeout computed to be: 1500
+110/199 Test #110: open_empty.test ..................................   Passed    0.05 sec
+test 111
+        Start 111: open_empty_2.test
+
+111: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_empty_2.test"
+111: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+111: Environment variables: 
+111:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+111: Test timeout computed to be: 1500
+111/199 Test #111: open_empty_2.test ................................   Passed    0.05 sec
+test 112
+        Start 112: open_extrabytes.test
+
+112: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_extrabytes.test"
+112: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+112: Environment variables: 
+112:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+112: Test timeout computed to be: 1500
+112/199 Test #112: open_extrabytes.test .............................   Passed    0.04 sec
+test 113
+        Start 113: open_file_count.test
+
+113: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_file_count.test"
+113: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+113: Environment variables: 
+113:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+113: Test timeout computed to be: 1500
+113/199 Test #113: open_file_count.test .............................   Passed    0.05 sec
+test 114
+        Start 114: open_filename_duplicate.test
+
+114: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_filename_duplicate.test"
+114: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+114: Environment variables: 
+114:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+114: Test timeout computed to be: 1500
+114/199 Test #114: open_filename_duplicate.test .....................   Passed    0.05 sec
+test 115
+        Start 115: open_filename_duplicate_consistency.test
+
+115: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_filename_duplicate_consistency.test"
+115: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+115: Environment variables: 
+115:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+115: Test timeout computed to be: 1500
+115/199 Test #115: open_filename_duplicate_consistency.test .........   Passed    0.05 sec
+test 116
+        Start 116: open_filename_duplicate_empty.test
+
+116: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_filename_duplicate_empty.test"
+116: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+116: Environment variables: 
+116:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+116: Test timeout computed to be: 1500
+116/199 Test #116: open_filename_duplicate_empty.test ...............   Passed    0.05 sec
+test 117
+        Start 117: open_filename_duplicate_empty_consistency.test
+
+117: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_filename_duplicate_empty_consistency.test"
+117: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+117: Environment variables: 
+117:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+117: Test timeout computed to be: 1500
+117/199 Test #117: open_filename_duplicate_empty_consistency.test ...   Passed    0.08 sec
+test 118
+        Start 118: open_filename_empty.test
+
+118: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_filename_empty.test"
+118: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+118: Environment variables: 
+118:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+118: Test timeout computed to be: 1500
+118/199 Test #118: open_filename_empty.test .........................   Passed    0.06 sec
+test 119
+        Start 119: open_incons.test
+
+119: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_incons.test"
+119: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+119: Environment variables: 
+119:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+119: Test timeout computed to be: 1500
+119/199 Test #119: open_incons.test .................................   Passed    0.06 sec
+test 120
+        Start 120: open_incons_eocd64_gap.test
+
+120: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_incons_eocd64_gap.test"
+120: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+120: Environment variables: 
+120:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+120: Test timeout computed to be: 1500
+120/199 Test #120: open_incons_eocd64_gap.test ......................   Passed    0.06 sec
+test 121
+        Start 121: open_incons_utf8_nul_in_name.test
+
+121: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_incons_utf8_nul_in_name.test"
+121: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+121: Environment variables: 
+121:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+121: Test timeout computed to be: 1500
+121/199 Test #121: open_incons_utf8_nul_in_name.test ................   Passed    0.06 sec
+test 122
+        Start 122: open_incons_utf8_surrogate.test
+
+122: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_incons_utf8_surrogate.test"
+122: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+122: Environment variables: 
+122:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+122: Test timeout computed to be: 1500
+122/199 Test #122: open_incons_utf8_surrogate.test ..................   Passed    0.05 sec
+test 123
+        Start 123: open_incons_zip64_overflow.test
+
+123: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_incons_zip64_overflow.test"
+123: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+123: Environment variables: 
+123:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+123: Test timeout computed to be: 1500
+123/199 Test #123: open_incons_zip64_overflow.test ..................   Passed    0.05 sec
+test 124
+        Start 124: open_many_fail.test
+
+124: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_many_fail.test"
+124: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+124: Environment variables: 
+124:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+124: Test timeout computed to be: 1500
+124/199 Test #124: open_many_fail.test ..............................   Passed    0.13 sec
+test 125
+        Start 125: open_many_ok.test
+
+125: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_many_ok.test"
+125: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+125: Environment variables: 
+125:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+125: Test timeout computed to be: 1500
+125/199 Test #125: open_many_ok.test ................................   Passed    1.26 sec
+test 126
+        Start 126: open_multidisk.test
+
+126: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_multidisk.test"
+126: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+126: Environment variables: 
+126:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+126: Test timeout computed to be: 1500
+126/199 Test #126: open_multidisk.test ..............................   Passed    0.06 sec
+test 127
+        Start 127: open_new_but_exists.test
+
+127: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_new_but_exists.test"
+127: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+127: Environment variables: 
+127:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+127: Test timeout computed to be: 1500
+127/199 Test #127: open_new_but_exists.test .........................   Passed    0.06 sec
+test 128
+        Start 128: open_new_ok.test
+
+128: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_new_ok.test"
+128: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+128: Environment variables: 
+128:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+128: Test timeout computed to be: 1500
+128/199 Test #128: open_new_ok.test .................................   Passed    0.06 sec
+test 129
+        Start 129: open_nonarchive.test
+
+129: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_nonarchive.test"
+129: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+129: Environment variables: 
+129:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+129: Test timeout computed to be: 1500
+129/199 Test #129: open_nonarchive.test .............................   Passed    0.06 sec
+test 130
+        Start 130: open_nosuchfile.test
+
+130: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_nosuchfile.test"
+130: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+130: Environment variables: 
+130:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+130: Test timeout computed to be: 1500
+130/199 Test #130: open_nosuchfile.test .............................   Passed    0.04 sec
+test 131
+        Start 131: open_ok.test
+
+131: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_ok.test"
+131: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+131: Environment variables: 
+131:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+131: Test timeout computed to be: 1500
+131/199 Test #131: open_ok.test .....................................   Passed    0.06 sec
+test 132
+        Start 132: open_too_short.test
+
+132: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_too_short.test"
+132: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+132: Environment variables: 
+132:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+132: Test timeout computed to be: 1500
+132/199 Test #132: open_too_short.test ..............................   Passed    0.05 sec
+test 133
+        Start 133: open_truncate.test
+
+133: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_truncate.test"
+133: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+133: Environment variables: 
+133:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+133: Test timeout computed to be: 1500
+133/199 Test #133: open_truncate.test ...............................   Passed    0.07 sec
+test 134
+        Start 134: open_truncated.test
+
+134: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_truncated.test"
+134: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+134: Environment variables: 
+134:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+134: Test timeout computed to be: 1500
+134/199 Test #134: open_truncated.test ..............................   Passed    0.05 sec
+test 135
+        Start 135: open_zip64_3mf.test
+
+135: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_zip64_3mf.test"
+135: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+135: Environment variables: 
+135:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+135: Test timeout computed to be: 1500
+135/199 Test #135: open_zip64_3mf.test ..............................   Passed    0.05 sec
+test 136
+        Start 136: open_zip64_local_both_sizes.test
+
+136: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_zip64_local_both_sizes.test"
+136: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+136: Environment variables: 
+136:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+136: Test timeout computed to be: 1500
+136/199 Test #136: open_zip64_local_both_sizes.test .................   Passed    0.06 sec
+test 137
+        Start 137: open_zip64_ok.test
+
+137: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "open_zip64_ok.test"
+137: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+137: Environment variables: 
+137:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+137: Test timeout computed to be: 1500
+137/199 Test #137: open_zip64_ok.test ...............................   Passed    0.07 sec
+test 138
+        Start 138: progress.test
+
+138: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "progress.test"
+138: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+138: Environment variables: 
+138:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+138: Test timeout computed to be: 1500
+138/199 Test #138: progress.test ....................................   Passed    0.05 sec
+test 139
+        Start 139: read_incons.test
+
+139: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "read_incons.test"
+139: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+139: Environment variables: 
+139:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+139: Test timeout computed to be: 1500
+139/199 Test #139: read_incons.test .................................   Passed    0.05 sec
+test 140
+        Start 140: read_partial_incons_stored_past.test
+
+140: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "read_partial_incons_stored_past.test"
+140: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+140: Environment variables: 
+140:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+140: Test timeout computed to be: 1500
+140/199 Test #140: read_partial_incons_stored_past.test .............   Passed    0.05 sec
+test 141
+        Start 141: read_partial_incons_stored_shorter.test
+
+141: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "read_partial_incons_stored_shorter.test"
+141: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+141: Environment variables: 
+141:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+141: Test timeout computed to be: 1500
+141/199 Test #141: read_partial_incons_stored_shorter.test ..........   Passed    0.07 sec
+test 142
+        Start 142: read_past_eof.test
+
+142: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "read_past_eof.test"
+142: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+142: Environment variables: 
+142:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+142: Test timeout computed to be: 1500
+142/199 Test #142: read_past_eof.test ...............................   Passed    0.06 sec
+test 143
+        Start 143: read_seek_read.test
+
+143: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "read_seek_read.test"
+143: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+143: Environment variables: 
+143:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+143: Test timeout computed to be: 1500
+143/199 Test #143: read_seek_read.test ..............................   Passed    0.06 sec
+test 144
+        Start 144: rename_ascii.test
+
+144: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_ascii.test"
+144: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+144: Environment variables: 
+144:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+144: Test timeout computed to be: 1500
+144/199 Test #144: rename_ascii.test ................................   Passed    0.04 sec
+test 145
+        Start 145: rename_cp437.test
+
+145: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_cp437.test"
+145: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+145: Environment variables: 
+145:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+145: Test timeout computed to be: 1500
+145/199 Test #145: rename_cp437.test ................................   Passed    0.05 sec
+test 146
+        Start 146: rename_deleted.test
+
+146: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_deleted.test"
+146: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+146: Environment variables: 
+146:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+146: Test timeout computed to be: 1500
+146/199 Test #146: rename_deleted.test ..............................   Passed    0.05 sec
+test 147
+        Start 147: rename_fail.test
+
+147: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_fail.test"
+147: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+147: Environment variables: 
+147:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+147: Test timeout computed to be: 1500
+147/199 Test #147: rename_fail.test .................................   Passed    0.06 sec
+test 148
+        Start 148: rename_ok.test
+
+148: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_ok.test"
+148: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+148: Environment variables: 
+148:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+148: Test timeout computed to be: 1500
+148/199 Test #148: rename_ok.test ...................................   Passed    0.06 sec
+test 149
+        Start 149: rename_utf8.test
+
+149: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_utf8.test"
+149: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+149: Environment variables: 
+149:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+149: Test timeout computed to be: 1500
+149/199 Test #149: rename_utf8.test .................................   Passed    0.05 sec
+test 150
+        Start 150: rename_utf8_encmismatch.test
+
+150: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "rename_utf8_encmismatch.test"
+150: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+150: Environment variables: 
+150:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+150: Test timeout computed to be: 1500
+150/199 Test #150: rename_utf8_encmismatch.test .....................   Passed    0.05 sec
+test 151
+        Start 151: reopen.test
+
+151: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "reopen.test"
+151: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+151: Environment variables: 
+151:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+151: Test timeout computed to be: 1500
+151/199 Test #151: reopen.test ......................................   Passed    0.05 sec
+test 152
+        Start 152: reopen_partial.test
+
+152: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "reopen_partial.test"
+152: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+152: Environment variables: 
+152:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+152: Test timeout computed to be: 1500
+152/199 Test #152: reopen_partial.test ..............................   Passed    0.07 sec
+test 153
+        Start 153: reopen_partial_rest.test
+
+153: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "reopen_partial_rest.test"
+153: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+153: Environment variables: 
+153:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+153: Test timeout computed to be: 1500
+153/199 Test #153: reopen_partial_rest.test .........................   Passed    0.09 sec
+test 154
+        Start 154: replace_set_stored.test
+
+154: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "replace_set_stored.test"
+154: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+154: Environment variables: 
+154:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+154: Test timeout computed to be: 1500
+154/199 Test #154: replace_set_stored.test ..........................   Passed    0.06 sec
+test 155
+        Start 155: set_comment_all.test
+
+155: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_comment_all.test"
+155: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+155: Environment variables: 
+155:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+155: Test timeout computed to be: 1500
+155/199 Test #155: set_comment_all.test .............................   Passed    0.06 sec
+test 156
+        Start 156: set_comment_localonly.test
+
+156: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_comment_localonly.test"
+156: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+156: Environment variables: 
+156:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+156: Test timeout computed to be: 1500
+156/199 Test #156: set_comment_localonly.test .......................   Passed    0.08 sec
+test 157
+        Start 157: set_comment_removeglobal.test
+
+157: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_comment_removeglobal.test"
+157: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+157: Environment variables: 
+157:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+157: Test timeout computed to be: 1500
+157/199 Test #157: set_comment_removeglobal.test ....................   Passed    0.06 sec
+test 158
+        Start 158: set_comment_revert.test
+
+158: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_comment_revert.test"
+158: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+158: Environment variables: 
+158:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+158: Test timeout computed to be: 1500
+158/199 Test #158: set_comment_revert.test ..........................   Passed    0.06 sec
+test 159
+        Start 159: set_compression_broken_bzip2_to_deflate.test
+
+159: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_broken_bzip2_to_deflate.test"
+159: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+159: Environment variables: 
+159:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+159: Test timeout computed to be: 1500
+159/199 Test #159: set_compression_broken_bzip2_to_deflate.test .....***Skipped   0.05 sec
+test 160
+        Start 160: set_compression_bzip2_to_deflate.test
+
+160: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_bzip2_to_deflate.test"
+160: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+160: Environment variables: 
+160:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+160: Test timeout computed to be: 1500
+160/199 Test #160: set_compression_bzip2_to_deflate.test ............***Skipped   0.05 sec
+test 161
+        Start 161: set_compression_deflate_to_bzip2.test
+
+161: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_deflate_to_bzip2.test"
+161: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+161: Environment variables: 
+161:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+161: Test timeout computed to be: 1500
+161/199 Test #161: set_compression_deflate_to_bzip2.test ............***Skipped   0.04 sec
+test 162
+        Start 162: set_compression_deflate_to_deflate.test
+
+162: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_deflate_to_deflate.test"
+162: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+162: Environment variables: 
+162:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+162: Test timeout computed to be: 1500
+162/199 Test #162: set_compression_deflate_to_deflate.test ..........   Passed    0.06 sec
+test 163
+        Start 163: set_compression_deflate_to_store.test
+
+163: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_deflate_to_store.test"
+163: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+163: Environment variables: 
+163:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+163: Test timeout computed to be: 1500
+163/199 Test #163: set_compression_deflate_to_store.test ............   Passed    0.05 sec
+test 164
+        Start 164: set_compression_lzma_no_eos_to_store.test
+
+164: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_lzma_no_eos_to_store.test"
+164: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+164: Environment variables: 
+164:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+164: Test timeout computed to be: 1500
+164/199 Test #164: set_compression_lzma_no_eos_to_store.test ........***Skipped   0.04 sec
+test 165
+        Start 165: set_compression_lzma_to_store.test
+
+165: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_lzma_to_store.test"
+165: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+165: Environment variables: 
+165:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+165: Test timeout computed to be: 1500
+165/199 Test #165: set_compression_lzma_to_store.test ...............***Skipped   0.05 sec
+test 166
+        Start 166: set_compression_store_to_bzip2.test
+
+166: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_bzip2.test"
+166: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+166: Environment variables: 
+166:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+166: Test timeout computed to be: 1500
+166/199 Test #166: set_compression_store_to_bzip2.test ..............***Skipped   0.05 sec
+test 167
+        Start 167: set_compression_store_to_deflate.test
+
+167: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_deflate.test"
+167: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+167: Environment variables: 
+167:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+167: Test timeout computed to be: 1500
+167/199 Test #167: set_compression_store_to_deflate.test ............   Passed    0.05 sec
+test 168
+        Start 168: set_compression_store_to_lzma.test
+
+168: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_lzma.test"
+168: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+168: Environment variables: 
+168:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+168: Test timeout computed to be: 1500
+168/199 Test #168: set_compression_store_to_lzma.test ...............***Skipped   0.05 sec
+test 169
+        Start 169: set_compression_store_to_store.test
+
+169: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_store.test"
+169: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+169: Environment variables: 
+169:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+169: Test timeout computed to be: 1500
+169/199 Test #169: set_compression_store_to_store.test ..............   Passed    0.06 sec
+test 170
+        Start 170: set_compression_store_to_xz.test
+
+170: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_xz.test"
+170: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+170: Environment variables: 
+170:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+170: Test timeout computed to be: 1500
+170/199 Test #170: set_compression_store_to_xz.test .................***Skipped   0.04 sec
+test 171
+        Start 171: set_compression_store_to_zstd.test
+
+171: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_store_to_zstd.test"
+171: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+171: Environment variables: 
+171:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+171: Test timeout computed to be: 1500
+171/199 Test #171: set_compression_store_to_zstd.test ...............***Skipped   0.04 sec
+test 172
+        Start 172: set_compression_unknown.test
+
+172: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_unknown.test"
+172: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+172: Environment variables: 
+172:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+172: Test timeout computed to be: 1500
+172/199 Test #172: set_compression_unknown.test .....................   Passed    0.05 sec
+test 173
+        Start 173: set_compression_xz_to_store.test
+
+173: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_xz_to_store.test"
+173: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+173: Environment variables: 
+173:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+173: Test timeout computed to be: 1500
+173/199 Test #173: set_compression_xz_to_store.test .................***Skipped   0.05 sec
+test 174
+        Start 174: set_compression_zstd_to_store.test
+
+174: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_compression_zstd_to_store.test"
+174: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+174: Environment variables: 
+174:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+174: Test timeout computed to be: 1500
+174/199 Test #174: set_compression_zstd_to_store.test ...............***Skipped   0.08 sec
+test 175
+        Start 175: set_file_dostime.test
+
+175: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_file_dostime.test"
+175: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+175: Environment variables: 
+175:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+175: Test timeout computed to be: 1500
+175/199 Test #175: set_file_dostime.test ............................   Passed    0.06 sec
+test 176
+        Start 176: set_file_mtime.test
+
+176: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_file_mtime.test"
+176: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+176: Environment variables: 
+176:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+176: Test timeout computed to be: 1500
+176/199 Test #176: set_file_mtime.test ..............................   Passed    0.06 sec
+test 177
+        Start 177: set_file_mtime_pkware.test
+
+177: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "set_file_mtime_pkware.test"
+177: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+177: Environment variables: 
+177:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+177: Test timeout computed to be: 1500
+177/199 Test #177: set_file_mtime_pkware.test .......................   Passed    0.05 sec
+test 178
+        Start 178: source_seek.test
+
+178: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "source_seek.test"
+178: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+178: Environment variables: 
+178:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+178: Test timeout computed to be: 1500
+178/199 Test #178: source_seek.test .................................   Passed    0.04 sec
+test 179
+        Start 179: stat_index_cp437_guess.test
+
+179: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_cp437_guess.test"
+179: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+179: Environment variables: 
+179:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+179: Test timeout computed to be: 1500
+179/199 Test #179: stat_index_cp437_guess.test ......................   Passed    0.06 sec
+test 180
+        Start 180: stat_index_cp437_raw.test
+
+180: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_cp437_raw.test"
+180: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+180: Environment variables: 
+180:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+180: Test timeout computed to be: 1500
+180/199 Test #180: stat_index_cp437_raw.test ........................   Passed    0.06 sec
+test 181
+        Start 181: stat_index_cp437_strict.test
+
+181: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_cp437_strict.test"
+181: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+181: Environment variables: 
+181:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+181: Test timeout computed to be: 1500
+181/199 Test #181: stat_index_cp437_strict.test .....................   Passed    0.05 sec
+test 182
+        Start 182: stat_index_fileorder.test
+
+182: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_fileorder.test"
+182: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+182: Environment variables: 
+182:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+182: Test timeout computed to be: 1500
+182/199 Test #182: stat_index_fileorder.test ........................   Passed    0.05 sec
+test 183
+        Start 183: stat_index_streamed.test
+
+183: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_streamed.test"
+183: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+183: Environment variables: 
+183:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+183: Test timeout computed to be: 1500
+183/199 Test #183: stat_index_streamed.test .........................   Passed    0.06 sec
+test 184
+        Start 184: stat_index_streamed_zip64.test
+
+184: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_streamed_zip64.test"
+184: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+184: Environment variables: 
+184:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+184: Test timeout computed to be: 1500
+184/199 Test #184: stat_index_streamed_zip64.test ...................   Passed    0.06 sec
+test 185
+        Start 185: stat_index_utf8_guess.test
+
+185: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_utf8_guess.test"
+185: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+185: Environment variables: 
+185:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+185: Test timeout computed to be: 1500
+185/199 Test #185: stat_index_utf8_guess.test .......................   Passed    0.06 sec
+test 186
+        Start 186: stat_index_utf8_raw.test
+
+186: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_utf8_raw.test"
+186: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+186: Environment variables: 
+186:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+186: Test timeout computed to be: 1500
+186/199 Test #186: stat_index_utf8_raw.test .........................   Passed    0.07 sec
+test 187
+        Start 187: stat_index_utf8_strict.test
+
+187: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_utf8_strict.test"
+187: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+187: Environment variables: 
+187:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+187: Test timeout computed to be: 1500
+187/199 Test #187: stat_index_utf8_strict.test ......................   Passed    0.08 sec
+test 188
+        Start 188: stat_index_utf8_unmarked_strict.test
+
+188: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_utf8_unmarked_strict.test"
+188: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+188: Environment variables: 
+188:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+188: Test timeout computed to be: 1500
+188/199 Test #188: stat_index_utf8_unmarked_strict.test .............   Passed    0.06 sec
+test 189
+        Start 189: stat_index_zip64.test
+
+189: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "stat_index_zip64.test"
+189: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+189: Environment variables: 
+189:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+189: Test timeout computed to be: 1500
+189/199 Test #189: stat_index_zip64.test ............................   Passed    0.10 sec
+test 190
+        Start 190: truncate_empty_keep.test
+
+190: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "truncate_empty_keep.test"
+190: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+190: Environment variables: 
+190:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+190: Test timeout computed to be: 1500
+190/199 Test #190: truncate_empty_keep.test .........................   Passed    0.07 sec
+test 191
+        Start 191: unchange-delete-namelocate.test
+
+191: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "unchange-delete-namelocate.test"
+191: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+191: Environment variables: 
+191:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+191: Test timeout computed to be: 1500
+191/199 Test #191: unchange-delete-namelocate.test ..................   Passed    0.05 sec
+test 192
+        Start 192: utf-8-standardization.test
+
+192: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "utf-8-standardization.test"
+192: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+192: Environment variables: 
+192:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+192: Test timeout computed to be: 1500
+192/199 Test #192: utf-8-standardization.test .......................   Passed    0.05 sec
+test 193
+        Start 193: want_torrentzip_stat.test
+
+193: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "want_torrentzip_stat.test"
+193: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+193: Environment variables: 
+193:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+193: Test timeout computed to be: 1500
+193/199 Test #193: want_torrentzip_stat.test ........................   Passed    0.04 sec
+test 194
+        Start 194: zip-in-archive-comment.test
+
+194: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zip-in-archive-comment.test"
+194: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+194: Environment variables: 
+194:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+194: Test timeout computed to be: 1500
+194/199 Test #194: zip-in-archive-comment.test ......................   Passed    0.05 sec
+test 195
+        Start 195: zip64-in-archive-comment.test
+
+195: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zip64-in-archive-comment.test"
+195: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+195: Environment variables: 
+195:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+195: Test timeout computed to be: 1500
+195/199 Test #195: zip64-in-archive-comment.test ....................   Passed    0.05 sec
+test 196
+        Start 196: zip64_creation.test
+
+196: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zip64_creation.test"
+196: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+196: Environment variables: 
+196:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+196: Test timeout computed to be: 1500
+196/199 Test #196: zip64_creation.test ..............................   Passed   14.85 sec
+test 197
+        Start 197: zip64_stored_creation.test
+
+197: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zip64_stored_creation.test"
+197: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+197: Environment variables: 
+197:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+197: Test timeout computed to be: 1500
+197/199 Test #197: zip64_stored_creation.test .......................   Passed    2.74 sec
+test 198
+        Start 198: zipcmp_zip_dir.test
+
+198: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zipcmp_zip_dir.test"
+198: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+198: Environment variables: 
+198:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+198: Test timeout computed to be: 1500
+198/199 Test #198: zipcmp_zip_dir.test ..............................   Passed    0.05 sec
+test 199
+        Start 199: zipcmp_zip_dir_slash.test
+
+199: Test command: <WORKSPACE>/build-tools/libzip-tools/bin/nihtest "-v" "zipcmp_zip_dir_slash.test"
+199: Working Directory: <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress
+199: Environment variables: 
+199:  PATH=<WORKSPACE>/libzip-evidence-sustained/full-validation/build/lib;<WORKSPACE>/build-tools/libzip-tools/bin:<RUNTIME_PATH>:/opt/codex/codex-path:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/override:/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/codex/runtimes/codex-primary-runtime/dependencies/bin/fallback
+199: Test timeout computed to be: 1500
+199/199 Test #199: zipcmp_zip_dir_slash.test ........................   Passed    0.05 sec
+
+100% tests passed out of 199
+
+Total Test time (real) =  29.24 sec
+
+The following tests did not run:
+	 32 - clone-fs-add.test (Skipped)
+	 33 - clone-fs-delete.test (Skipped)
+	 34 - clone-fs-replace.test (Skipped)
+	159 - set_compression_broken_bzip2_to_deflate.test (Skipped)
+	160 - set_compression_bzip2_to_deflate.test (Skipped)
+	161 - set_compression_deflate_to_bzip2.test (Skipped)
+	164 - set_compression_lzma_no_eos_to_store.test (Skipped)
+	165 - set_compression_lzma_to_store.test (Skipped)
+	166 - set_compression_store_to_bzip2.test (Skipped)
+	168 - set_compression_store_to_lzma.test (Skipped)
+	170 - set_compression_store_to_xz.test (Skipped)
+	171 - set_compression_store_to_zstd.test (Skipped)
+	173 - set_compression_xz_to_store.test (Skipped)
+	174 - set_compression_zstd_to_store.test (Skipped)

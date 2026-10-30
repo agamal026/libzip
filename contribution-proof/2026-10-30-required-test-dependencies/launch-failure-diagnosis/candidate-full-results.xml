@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Linux-cc"
+	tests="199"
+	failures="0"
+	disabled="0"
+	skipped="14"
+	hostname="<BUILD_HOST>"
+	time="29"
+	timestamp="2026-10-31T01:51:41"
+	>
+	<testcase name="add_dir.test" classname="add_dir.test" time="0.0486257" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_buffer.test" classname="add_from_buffer.test" time="0.0413201" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_file.test" classname="add_from_file.test" time="0.0502904" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_file_duplicate.test" classname="add_from_file_duplicate.test" time="0.0408691" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_file_twice_duplicate.test" classname="add_from_file_twice_duplicate.test" time="0.0422469" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_file_unchange.test" classname="add_from_file_unchange.test" time="0.0452659" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_filep.test" classname="add_from_filep.test" time="0.0497065" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_stdin.test" classname="add_from_stdin.test" time="0.0516563" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_closed.test" classname="add_from_zip_closed.test" time="0.0496819" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_deflated.test" classname="add_from_zip_deflated.test" time="0.0479323" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_deflated2.test" classname="add_from_zip_deflated2.test" time="0.0461377" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_partial_deflated.test" classname="add_from_zip_partial_deflated.test" time="0.0507902" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_partial_stored.test" classname="add_from_zip_partial_stored.test" time="0.0523907" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_from_zip_stored.test" classname="add_from_zip_stored.test" time="0.0420952" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_stored.test" classname="add_stored.test" time="0.056444" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="add_stored_in_memory.test" classname="add_stored_in_memory.test" time="0.0437602" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="buffer-fragment-read.test" classname="buffer-fragment-read.test" time="0.0478946" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="buffer-fragment-write.test" classname="buffer-fragment-write.test" time="0.0423818" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="cancel_45.test" classname="cancel_45.test" time="0.0429847" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="cancel_90.test" classname="cancel_90.test" time="0.0475545" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="changing-size-decreases-fixed.test" classname="changing-size-decreases-fixed.test" time="0.0552325" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="changing-size-decreases.test" classname="changing-size-decreases.test" time="0.0482258" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="changing-size-increases-fixed.test" classname="changing-size-increases-fixed.test" time="0.0489759" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="changing-size-increases-unchecked.test" classname="changing-size-increases-unchecked.test" time="0.0471223" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="changing-size-increases.test" classname="changing-size-increases.test" time="0.0756224" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="check_torrentzip_fail.test" classname="check_torrentzip_fail.test" time="0.0489845" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="check_torrentzip_modified.test" classname="check_torrentzip_modified.test" time="0.0426666" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="check_torrentzip_success.test" classname="check_torrentzip_success.test" time="0.0612117" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-buffer-add.test" classname="clone-buffer-add.test" time="0.0495118" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-buffer-delete.test" classname="clone-buffer-delete.test" time="0.0504827" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-buffer-replace.test" classname="clone-buffer-replace.test" time="0.0471122" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-fs-add.test" classname="clone-fs-add.test" time="0.0480385" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-fs-delete.test" classname="clone-fs-delete.test" time="0.0440806" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="clone-fs-replace.test" classname="clone-fs-replace.test" time="0.0417484" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="cm-default.test" classname="cm-default.test" time="0.0507237" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="convert_to_torrentzip.test" classname="convert_to_torrentzip.test" time="0.0508103" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="convert_to_torrentzip_ef.test" classname="convert_to_torrentzip_ef.test" time="0.0408522" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="count_entries.test" classname="count_entries.test" time="0.241422" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="create_empty_keep.test" classname="create_empty_keep.test" time="0.0373478" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="crypto_clear.test" classname="crypto_clear.test" time="0.040698" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-correct-password-aes128.test" classname="decrypt-correct-password-aes128.test" time="0.0452186" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-correct-password-aes192.test" classname="decrypt-correct-password-aes192.test" time="0.0489746" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-correct-password-aes256.test" classname="decrypt-correct-password-aes256.test" time="0.0554729" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-correct-password-pkware-2.test" classname="decrypt-correct-password-pkware-2.test" time="0.0427493" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-correct-password-pkware.test" classname="decrypt-correct-password-pkware.test" time="0.052263" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-empty-file-badmac-aes256.test" classname="decrypt-empty-file-badmac-aes256.test" time="0.0468589" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-empty-file-pkware.test" classname="decrypt-empty-file-pkware.test" time="0.0426684" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-no-password-aes256.test" classname="decrypt-no-password-aes256.test" time="0.0412118" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-wrong-password-aes128.test" classname="decrypt-wrong-password-aes128.test" time="0.0396178" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-wrong-password-aes192.test" classname="decrypt-wrong-password-aes192.test" time="0.0419315" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-wrong-password-aes256.test" classname="decrypt-wrong-password-aes256.test" time="0.0416786" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-wrong-password-pkware-2.test" classname="decrypt-wrong-password-pkware-2.test" time="0.0618125" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="decrypt-wrong-password-pkware.test" classname="decrypt-wrong-password-pkware.test" time="0.0442993" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_add_same.test" classname="delete_add_same.test" time="0.0443407" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_invalid.test" classname="delete_invalid.test" time="0.0532112" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_last.test" classname="delete_last.test" time="0.0387736" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_last_keep.test" classname="delete_last_keep.test" time="0.0402915" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_multiple_last.test" classname="delete_multiple_last.test" time="0.0444645" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_multiple_partial.test" classname="delete_multiple_partial.test" time="0.0452745" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="delete_renamed_rename.test" classname="delete_renamed_rename.test" time="0.0452334" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encrypt.test" classname="encrypt.test" time="0.0385033" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-aes128.test" classname="encryption-nonrandom-aes128.test" time="0.0413648" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-aes192.test" classname="encryption-nonrandom-aes192.test" time="0.0382275" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-aes256-large.test" classname="encryption-nonrandom-aes256-large.test" time="0.0395241" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-aes256.test" classname="encryption-nonrandom-aes256.test" time="0.0434451" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-pkware-2.test" classname="encryption-nonrandom-pkware-2.test" time="0.0409141" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-nonrandom-pkware.test" classname="encryption-nonrandom-pkware.test" time="0.0381893" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-random-aes128.test" classname="encryption-random-aes128.test" time="0.0426066" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-random-pkware.test" classname="encryption-random-pkware.test" time="0.0413952" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-remove.test" classname="encryption-remove.test" time="0.0455276" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="encryption-stat.test" classname="encryption-stat.test" time="0.0399692" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="exact-read-integrity.test" classname="exact-read-integrity.test" time="0.059373" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_add.test" classname="extra_add.test" time="0.0427406" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_add_multiple.test" classname="extra_add_multiple.test" time="0.0431955" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_count.test" classname="extra_count.test" time="0.0420702" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_count_by_id.test" classname="extra_count_by_id.test" time="0.0458205" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_count_ignore_zip64.test" classname="extra_count_ignore_zip64.test" time="0.0511885" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_delete.test" classname="extra_delete.test" time="0.0527455" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_delete_by_id.test" classname="extra_delete_by_id.test" time="0.0525861" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_field_align.test" classname="extra_field_align.test" time="0.0431161" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_get.test" classname="extra_get.test" time="0.0451791" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_get_by_id.test" classname="extra_get_by_id.test" time="0.0521155" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_set.test" classname="extra_set.test" time="0.04558" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_set_invalid_index.test" classname="extra_set_invalid_index.test" time="0.0519233" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_set_modify_c.test" classname="extra_set_modify_c.test" time="0.0503101" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="extra_set_modify_l.test" classname="extra_set_modify_l.test" time="0.0456053" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fdopen_ok.test" classname="fdopen_ok.test" time="0.0507011" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="file_comment_encmismatch.test" classname="file_comment_encmismatch.test" time="0.061626" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="filep_error.test" classname="filep_error.test" time="0.0520815" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fopen_multiple.test" classname="fopen_multiple.test" time="0.0465134" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fopen_multiple_reopen.test" classname="fopen_multiple_reopen.test" time="0.0687458" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fopen_unchanged.test" classname="fopen_unchanged.test" time="0.0478389" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fread.test" classname="fread.test" time="0.0541919" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fseek_deflated.test" classname="fseek_deflated.test" time="0.0507339" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fseek_fail.test" classname="fseek_fail.test" time="0.0492236" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="fseek_ok.test" classname="fseek_ok.test" time="0.048452" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="get_comment.test" classname="get_comment.test" time="0.0629801" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="get_comment_long.test" classname="get_comment_long.test" time="0.0468558" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="hmac-error.test" classname="hmac-error.test" time="0.059679" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="junk_at_end.test" classname="junk_at_end.test" time="0.0400604" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="junk_at_start.test" classname="junk_at_start.test" time="0.0526375" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="mtime-dstpoint.test" classname="mtime-dstpoint.test" time="0.0411251" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="mtime-post-dstpoint.test" classname="mtime-post-dstpoint.test" time="0.064519" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="mtime-pre-dstpoint.test" classname="mtime-pre-dstpoint.test" time="0.0534743" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="name_locate-cp437.test" classname="name_locate-cp437.test" time="0.0566267" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="name_locate-utf8.test" classname="name_locate-utf8.test" time="0.0531112" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="name_locate.test" classname="name_locate.test" time="0.0525223" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_archive_comment_wrong.test" classname="open_archive_comment_wrong.test" time="0.0537336" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_cons_extrabytes.test" classname="open_cons_extrabytes.test" time="0.0433048" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_empty.test" classname="open_empty.test" time="0.0490056" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_empty_2.test" classname="open_empty_2.test" time="0.0530565" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_extrabytes.test" classname="open_extrabytes.test" time="0.0423527" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_file_count.test" classname="open_file_count.test" time="0.0514555" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_filename_duplicate.test" classname="open_filename_duplicate.test" time="0.0542867" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_filename_duplicate_consistency.test" classname="open_filename_duplicate_consistency.test" time="0.0494467" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_filename_duplicate_empty.test" classname="open_filename_duplicate_empty.test" time="0.0451714" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_filename_duplicate_empty_consistency.test" classname="open_filename_duplicate_empty_consistency.test" time="0.0756814" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_filename_empty.test" classname="open_filename_empty.test" time="0.057425" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_incons.test" classname="open_incons.test" time="0.0624529" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_incons_eocd64_gap.test" classname="open_incons_eocd64_gap.test" time="0.0558873" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_incons_utf8_nul_in_name.test" classname="open_incons_utf8_nul_in_name.test" time="0.0575091" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_incons_utf8_surrogate.test" classname="open_incons_utf8_surrogate.test" time="0.0531394" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_incons_zip64_overflow.test" classname="open_incons_zip64_overflow.test" time="0.0495348" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_many_fail.test" classname="open_many_fail.test" time="0.128993" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_many_ok.test" classname="open_many_ok.test" time="1.25969" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_multidisk.test" classname="open_multidisk.test" time="0.0550351" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_new_but_exists.test" classname="open_new_but_exists.test" time="0.0572849" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_new_ok.test" classname="open_new_ok.test" time="0.0588233" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_nonarchive.test" classname="open_nonarchive.test" time="0.0561305" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_nosuchfile.test" classname="open_nosuchfile.test" time="0.0403029" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_ok.test" classname="open_ok.test" time="0.0601045" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_too_short.test" classname="open_too_short.test" time="0.0486597" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_truncate.test" classname="open_truncate.test" time="0.0667118" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_truncated.test" classname="open_truncated.test" time="0.0515397" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_zip64_3mf.test" classname="open_zip64_3mf.test" time="0.05305" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_zip64_local_both_sizes.test" classname="open_zip64_local_both_sizes.test" time="0.0596361" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="open_zip64_ok.test" classname="open_zip64_ok.test" time="0.0746425" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="progress.test" classname="progress.test" time="0.047244" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="read_incons.test" classname="read_incons.test" time="0.0547597" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="read_partial_incons_stored_past.test" classname="read_partial_incons_stored_past.test" time="0.052049" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="read_partial_incons_stored_shorter.test" classname="read_partial_incons_stored_shorter.test" time="0.0668816" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="read_past_eof.test" classname="read_past_eof.test" time="0.0598961" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="read_seek_read.test" classname="read_seek_read.test" time="0.0566967" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_ascii.test" classname="rename_ascii.test" time="0.0425416" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_cp437.test" classname="rename_cp437.test" time="0.0501183" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_deleted.test" classname="rename_deleted.test" time="0.0487654" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_fail.test" classname="rename_fail.test" time="0.0580118" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_ok.test" classname="rename_ok.test" time="0.0639644" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_utf8.test" classname="rename_utf8.test" time="0.0538436" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="rename_utf8_encmismatch.test" classname="rename_utf8_encmismatch.test" time="0.0465011" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="reopen.test" classname="reopen.test" time="0.0531497" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="reopen_partial.test" classname="reopen_partial.test" time="0.0687333" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="reopen_partial_rest.test" classname="reopen_partial_rest.test" time="0.0866575" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="replace_set_stored.test" classname="replace_set_stored.test" time="0.0622457" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_comment_all.test" classname="set_comment_all.test" time="0.0638872" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_comment_localonly.test" classname="set_comment_localonly.test" time="0.0770054" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_comment_removeglobal.test" classname="set_comment_removeglobal.test" time="0.0617416" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_comment_revert.test" classname="set_comment_revert.test" time="0.0552737" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_broken_bzip2_to_deflate.test" classname="set_compression_broken_bzip2_to_deflate.test" time="0.0479817" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_bzip2_to_deflate.test" classname="set_compression_bzip2_to_deflate.test" time="0.0459105" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_deflate_to_bzip2.test" classname="set_compression_deflate_to_bzip2.test" time="0.0402912" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_deflate_to_deflate.test" classname="set_compression_deflate_to_deflate.test" time="0.0597946" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_deflate_to_store.test" classname="set_compression_deflate_to_store.test" time="0.0485778" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_lzma_no_eos_to_store.test" classname="set_compression_lzma_no_eos_to_store.test" time="0.0419151" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_lzma_to_store.test" classname="set_compression_lzma_to_store.test" time="0.046329" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_bzip2.test" classname="set_compression_store_to_bzip2.test" time="0.0464559" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_deflate.test" classname="set_compression_store_to_deflate.test" time="0.0472227" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_lzma.test" classname="set_compression_store_to_lzma.test" time="0.0474903" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_store.test" classname="set_compression_store_to_store.test" time="0.0567488" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_xz.test" classname="set_compression_store_to_xz.test" time="0.0401081" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_store_to_zstd.test" classname="set_compression_store_to_zstd.test" time="0.0426918" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_unknown.test" classname="set_compression_unknown.test" time="0.0534534" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_xz_to_store.test" classname="set_compression_xz_to_store.test" time="0.054019" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_compression_zstd_to_store.test" classname="set_compression_zstd_to_store.test" time="0.0781947" status="notrun">
+		<skipped message="SKIP_RETURN_CODE=77"/>
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_file_dostime.test" classname="set_file_dostime.test" time="0.0601898" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_file_mtime.test" classname="set_file_mtime.test" time="0.0560853" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="set_file_mtime_pkware.test" classname="set_file_mtime_pkware.test" time="0.0462669" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="source_seek.test" classname="source_seek.test" time="0.0379416" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_cp437_guess.test" classname="stat_index_cp437_guess.test" time="0.0626894" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_cp437_raw.test" classname="stat_index_cp437_raw.test" time="0.0573846" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_cp437_strict.test" classname="stat_index_cp437_strict.test" time="0.051359" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_fileorder.test" classname="stat_index_fileorder.test" time="0.0522366" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_streamed.test" classname="stat_index_streamed.test" time="0.0615972" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_streamed_zip64.test" classname="stat_index_streamed_zip64.test" time="0.0567024" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_utf8_guess.test" classname="stat_index_utf8_guess.test" time="0.0569482" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_utf8_raw.test" classname="stat_index_utf8_raw.test" time="0.0738666" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_utf8_strict.test" classname="stat_index_utf8_strict.test" time="0.0776628" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_utf8_unmarked_strict.test" classname="stat_index_utf8_unmarked_strict.test" time="0.0611272" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="stat_index_zip64.test" classname="stat_index_zip64.test" time="0.102419" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="truncate_empty_keep.test" classname="truncate_empty_keep.test" time="0.0724136" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="unchange-delete-namelocate.test" classname="unchange-delete-namelocate.test" time="0.0547456" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="utf-8-standardization.test" classname="utf-8-standardization.test" time="0.0497678" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="want_torrentzip_stat.test" classname="want_torrentzip_stat.test" time="0.0358646" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zip-in-archive-comment.test" classname="zip-in-archive-comment.test" time="0.0475901" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zip64-in-archive-comment.test" classname="zip64-in-archive-comment.test" time="0.0518452" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zip64_creation.test" classname="zip64_creation.test" time="14.8476" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zip64_stored_creation.test" classname="zip64_stored_creation.test" time="2.73544" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zipcmp_zip_dir.test" classname="zipcmp_zip_dir.test" time="0.0474836" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="zipcmp_zip_dir_slash.test" classname="zipcmp_zip_dir_slash.test" time="0.0472119" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+</testsuite>

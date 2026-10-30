@@ -1,0 +1,43 @@
+{
+  "base": "da9448dec74a14ed2d20815c15846be89fb713a0",
+  "base_tree": "f88022f8ee256b6a0c553249cebb8f60439104ee",
+  "tree": "9b1694dbdfdae7119c01969d2eecdc2c83913ac6",
+  "patch_sha256": "089d7148a6d90c1e7c55328127a096a971ec36b3d5c02a33d0b33d581c4c53ec",
+  "files": [
+    {
+      "path": ".github/workflows/bsd.yml",
+      "sha256": "79ef58c66ab004db3b6bc4f9468d3dbefce9eba1f5307ea91ae84fa53f23f1b8",
+      "bytes": 1225
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "f08624b2120eeaa683ec3c06b4753cc12a52c31d72b740357a0dac80d588bd45",
+      "bytes": 2797
+    },
+    {
+      "path": ".github/workflows/solaris.yml",
+      "sha256": "402b28d2935b759fec5f3c3d11e070424f79c50db20975f6197925bdaa784167",
+      "bytes": 1115
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "d0333529f05927cb9db8c0295d6cfbe6a18ab78dc2bb0c3fa942254dd6387e1c",
+      "bytes": 18695
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "f1f7373a5169bb68c8fbe81beaf191e1dc544db30f7784cbd2165c638fce9a7a",
+      "bytes": 6732
+    },
+    {
+      "path": "TODO.md",
+      "sha256": "e6e4fd749d40e1f1ddb533360ad538b9bbf3df8056cb1ea71e8880b215d97f1e",
+      "bytes": 9137
+    },
+    {
+      "path": "appveyor.yml",
+      "sha256": "9bc8dd8256cdd0bc9f149f8c59a9849771be7bfe60c1cb360f7de68ce6186aff",
+      "bytes": 3164
+    }
+  ]
+}

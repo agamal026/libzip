@@ -1,0 +1,220 @@
+{
+  "started_utc": "2026-10-30T16:51:32.528673+00:00",
+  "source_commit": "c8eb979d0c0c5e4a9612d07c3849ec677659b165",
+  "source_tree": "9b1694dbdfdae7119c01969d2eecdc2c83913ac6",
+  "base": "da9448dec74a14ed2d20815c15846be89fb713a0",
+  "steps": [
+    {
+      "name": "upstream-configure",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-evidence-sustained/upstream-control-source",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/upstream-build",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON"
+      ],
+      "started_utc": "2026-10-30T16:51:32.578499+00:00",
+      "completed_utc": "2026-10-30T16:51:37.534353+00:00",
+      "seconds": 4.956,
+      "exit_code": 0,
+      "log_bytes": 6952,
+      "log_sha256": "3175ba0d60cdcab22ab0daf16779e78132e0d2cddaf7ac9a464dd39672de68ae"
+    },
+    {
+      "name": "upstream-build-fopen",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "--build",
+        "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/upstream-build",
+        "--target",
+        "fopen_unchanged",
+        "--parallel",
+        "2"
+      ],
+      "started_utc": "2026-10-30T16:51:37.534816+00:00",
+      "completed_utc": "2026-10-30T16:51:41.025943+00:00",
+      "seconds": 3.491,
+      "exit_code": 0,
+      "log_bytes": 8986,
+      "log_sha256": "e4601b4ee25a615eec809ede975d389f3351f85c6499cc2dceb2633496f32556"
+    },
+    {
+      "name": "upstream-fopen-test",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/ctest",
+        "--test-dir",
+        "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/upstream-build",
+        "--no-tests=error",
+        "--output-on-failure",
+        "-V",
+        "-R",
+        "^fopen_unchanged[.]test$",
+        "--output-junit",
+        "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/upstream-fopen-results.xml"
+      ],
+      "started_utc": "2026-10-30T16:51:41.026502+00:00",
+      "completed_utc": "2026-10-30T16:51:41.191160+00:00",
+      "seconds": 0.165,
+      "exit_code": 0,
+      "log_bytes": 1774,
+      "log_sha256": "b014ec2d42809883b5c552054e1696c03bf4c384ae1047ab76047980e6614e1f"
+    },
+    {
+      "name": "candidate-rebuild-fopen",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "--build",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "--target",
+        "fopen_unchanged",
+        "--parallel",
+        "2"
+      ],
+      "started_utc": "2026-10-30T16:51:41.196621+00:00",
+      "completed_utc": "2026-10-30T16:51:41.361232+00:00",
+      "seconds": 0.165,
+      "exit_code": 0,
+      "log_bytes": 51,
+      "log_sha256": "f2b3f5822b0b1e8c17a3adc7645da37dbbb0214424a81dfda6adb2f783cb7d08"
+    },
+    {
+      "name": "candidate-full-ctest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/ctest",
+        "--test-dir",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "--output-on-failure",
+        "--no-tests=error",
+        "-V",
+        "-C",
+        "Release",
+        "--output-junit",
+        "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/candidate-full-results.xml"
+      ],
+      "started_utc": "2026-10-30T16:51:41.362083+00:00",
+      "completed_utc": "2026-10-30T16:52:10.733057+00:00",
+      "seconds": 29.371,
+      "exit_code": 0,
+      "log_bytes": 210781,
+      "log_sha256": "c3e0473d4a0d8b0d699a76bdc40319103a9607ce97dfd9b5742aa72988d00ecb"
+    }
+  ],
+  "status": "passed",
+  "original_run": {
+    "ctest_exit": 8,
+    "tests": {
+      "reported": 199,
+      "passed": 184,
+      "failed": 1,
+      "skipped": 14,
+      "failed_tests": [
+        "fopen_unchanged.test"
+      ],
+      "skipped_tests": [
+        "clone-fs-add.test",
+        "clone-fs-delete.test",
+        "clone-fs-replace.test",
+        "set_compression_broken_bzip2_to_deflate.test",
+        "set_compression_bzip2_to_deflate.test",
+        "set_compression_deflate_to_bzip2.test",
+        "set_compression_lzma_no_eos_to_store.test",
+        "set_compression_lzma_to_store.test",
+        "set_compression_store_to_bzip2.test",
+        "set_compression_store_to_lzma.test",
+        "set_compression_store_to_xz.test",
+        "set_compression_store_to_zstd.test",
+        "set_compression_xz_to_store.test",
+        "set_compression_zstd_to_store.test"
+      ]
+    },
+    "failure_kind": "nihtest could not launch the test executable: Errno 13 Permission denied",
+    "original_report_unchanged": true
+  },
+  "original_binary": {
+    "path": "<WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress/fopen_unchanged",
+    "mode": "0o100644",
+    "mtime_ns": 1793378704715432267,
+    "ctime_ns": 1793378707352685865,
+    "bytes": 16656,
+    "sha256": "145274ce6f9014e6b09dd9b32316d8df62c0fce70d4d6618e3c58629596c6394",
+    "executable": false
+  },
+  "candidate_source_matches_frozen_before": true,
+  "upstream_binary": {
+    "path": "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/upstream-build/regress/fopen_unchanged",
+    "mode": "0o100755",
+    "mtime_ns": 1793379101004086898,
+    "ctime_ns": 1793379101004097874,
+    "bytes": 16656,
+    "sha256": "c8f58e043d0b191453c402b6cb87e3759487344ad58dca550f349966479ab0ba",
+    "executable": true
+  },
+  "upstream_test": {
+    "reported": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "failed_tests": [],
+    "skipped_tests": []
+  },
+  "upstream_source_unchanged": true,
+  "preserved_initial_binary": {
+    "path": "<WORKSPACE>/libzip-evidence-sustained/launch-failure-diagnosis/initial-fopen_unchanged",
+    "mode": "0o100644",
+    "mtime_ns": 1793378704715432267,
+    "ctime_ns": 1793379101196420555,
+    "bytes": 16656,
+    "sha256": "145274ce6f9014e6b09dd9b32316d8df62c0fce70d4d6618e3c58629596c6394",
+    "executable": false
+  },
+  "rebuilt_candidate_binary": {
+    "path": "<WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress/fopen_unchanged",
+    "mode": "0o100755",
+    "mtime_ns": 1793379101357815786,
+    "ctime_ns": 1793379101357828215,
+    "bytes": 16656,
+    "sha256": "145274ce6f9014e6b09dd9b32316d8df62c0fce70d4d6618e3c58629596c6394",
+    "executable": true
+  },
+  "rebuilt_candidate_bytes_equal_original": true,
+  "candidate_retest": {
+    "reported": 199,
+    "passed": 185,
+    "failed": 0,
+    "skipped": 14,
+    "failed_tests": [],
+    "skipped_tests": [
+      "clone-fs-add.test",
+      "clone-fs-delete.test",
+      "clone-fs-replace.test",
+      "set_compression_broken_bzip2_to_deflate.test",
+      "set_compression_bzip2_to_deflate.test",
+      "set_compression_deflate_to_bzip2.test",
+      "set_compression_lzma_no_eos_to_store.test",
+      "set_compression_lzma_to_store.test",
+      "set_compression_store_to_bzip2.test",
+      "set_compression_store_to_lzma.test",
+      "set_compression_store_to_xz.test",
+      "set_compression_store_to_zstd.test",
+      "set_compression_xz_to_store.test",
+      "set_compression_zstd_to_store.test"
+    ]
+  },
+  "candidate_binary_after_tests": {
+    "path": "<WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress/fopen_unchanged",
+    "mode": "0o100755",
+    "mtime_ns": 1793379101357815786,
+    "ctime_ns": 1793379101357828215,
+    "bytes": 16656,
+    "sha256": "145274ce6f9014e6b09dd9b32316d8df62c0fce70d4d6618e3c58629596c6394",
+    "executable": true
+  },
+  "candidate_source_matches_frozen_after": true,
+  "completed_utc": "2026-10-30T16:52:10.735165+00:00",
+  "attribution_limit": "The original artifact lacked execute bits; the actor or mechanism that changed its mode has not been established. The original launch failure is retained, not counted as a pass."
+}

@@ -1,0 +1,465 @@
+[1/443] Generating zip_err_str.c
+[2/443] Building C object lib/CMakeFiles/zip.dir/siphash.c.o
+[3/443] Building C object src/CMakeFiles/shell.dir/shell/argument.c.o
+[4/443] Building C object lib/CMakeFiles/zip.dir/zip_add.c.o
+[5/443] Building C object lib/CMakeFiles/zip.dir/zip_add_dir.c.o
+[6/443] Building C object lib/CMakeFiles/zip.dir/zip_add_entry.c.o
+[7/443] Building C object lib/CMakeFiles/zip.dir/zip_algorithm_deflate.c.o
+[8/443] Building C object lib/CMakeFiles/zip.dir/zip_buffer.c.o
+[9/443] Building C object lib/CMakeFiles/zip.dir/zip_crypto.c.o
+[10/443] Building C object lib/CMakeFiles/zip.dir/zip_delete.c.o
+[11/443] Building C object lib/CMakeFiles/zip.dir/zip_dir_add.c.o
+[12/443] Building C object lib/CMakeFiles/zip.dir/zip_close.c.o
+[13/443] Building C object lib/CMakeFiles/zip.dir/zip_discard.c.o
+[14/443] Building C object lib/CMakeFiles/zip.dir/zip_entry.c.o
+[15/443] Building C object lib/CMakeFiles/zip.dir/zip_error.c.o
+[16/443] Building C object lib/CMakeFiles/zip.dir/zip_error_clear.c.o
+[17/443] Building C object lib/CMakeFiles/zip.dir/zip_error_get.c.o
+[18/443] Building C object lib/CMakeFiles/zip.dir/zip_error_get_sys_type.c.o
+[19/443] Building C object lib/CMakeFiles/zip.dir/zip_dirent.c.o
+[20/443] Building C object lib/CMakeFiles/zip.dir/zip_error_strerror.c.o
+[21/443] Building C object lib/CMakeFiles/zip.dir/zip_error_to_str.c.o
+[22/443] Building C object lib/CMakeFiles/zip.dir/zip_extra_field_api.c.o
+[23/443] Building C object lib/CMakeFiles/zip.dir/zip_fclose.c.o
+[24/443] Building C object lib/CMakeFiles/zip.dir/zip_extra_field.c.o
+[25/443] Building C object lib/CMakeFiles/zip.dir/zip_fdopen.c.o
+[26/443] Building C object lib/CMakeFiles/zip.dir/zip_file_add.c.o
+[27/443] Building C object lib/CMakeFiles/zip.dir/zip_file_error_get.c.o
+[28/443] Building C object lib/CMakeFiles/zip.dir/zip_file_error_clear.c.o
+[29/443] Building C object lib/CMakeFiles/zip.dir/zip_file_get_comment.c.o
+[30/443] Building C object lib/CMakeFiles/zip.dir/zip_file_get_external_attributes.c.o
+[31/443] Building C object lib/CMakeFiles/zip.dir/zip_file_get_offset.c.o
+[32/443] Building C object lib/CMakeFiles/zip.dir/zip_file_rename.c.o
+[33/443] Building C object lib/CMakeFiles/zip.dir/zip_file_replace.c.o
+[34/443] Building C object lib/CMakeFiles/zip.dir/zip_file_set_comment.c.o
+[35/443] Building C object lib/CMakeFiles/zip.dir/zip_file_set_external_attributes.c.o
+[36/443] Building C object lib/CMakeFiles/zip.dir/zip_file_set_encryption.c.o
+[37/443] Building C object lib/CMakeFiles/zip.dir/zip_file_strerror.c.o
+[38/443] Building C object lib/CMakeFiles/zip.dir/zip_file_set_mtime.c.o
+[39/443] Building C object lib/CMakeFiles/zip.dir/zip_fopen.c.o
+[40/443] Building C object lib/CMakeFiles/zip.dir/zip_fopen_encrypted.c.o
+[41/443] Building C object lib/CMakeFiles/zip.dir/zip_fopen_index.c.o
+[42/443] Building C object lib/CMakeFiles/zip.dir/zip_fopen_index_encrypted.c.o
+[43/443] Building C object lib/CMakeFiles/zip.dir/zip_fread.c.o
+[44/443] Building C object lib/CMakeFiles/zip.dir/zip_fseek.c.o
+[45/443] Building C object lib/CMakeFiles/zip.dir/zip_ftell.c.o
+[46/443] Building C object lib/CMakeFiles/zip.dir/zip_get_archive_comment.c.o
+[47/443] Building C object lib/CMakeFiles/zip.dir/zip_get_archive_flag.c.o
+[48/443] Building C object lib/CMakeFiles/zip.dir/zip_get_encryption_implementation.c.o
+[49/443] Building C object lib/CMakeFiles/zip.dir/zip_get_file_comment.c.o
+[50/443] Building C object lib/CMakeFiles/zip.dir/zip_get_name.c.o
+[51/443] Building C object lib/CMakeFiles/zip.dir/zip_get_num_files.c.o
+[52/443] Building C object lib/CMakeFiles/zip.dir/zip_get_num_entries.c.o
+[53/443] Building C object lib/CMakeFiles/zip.dir/zip_io_util.c.o
+[54/443] Building C object lib/CMakeFiles/zip.dir/zip_libzip_version.c.o
+[55/443] Building C object lib/CMakeFiles/zip.dir/zip_hash.c.o
+[56/443] Building C object lib/CMakeFiles/zip.dir/zip_memdup.c.o
+[57/443] Building C object lib/CMakeFiles/zip.dir/zip_name_locate.c.o
+[58/443] Building C object lib/CMakeFiles/zip.dir/zip_new.c.o
+[59/443] Building C object lib/CMakeFiles/zip.dir/zip_pkware.c.o
+[60/443] Building C object lib/CMakeFiles/zip.dir/zip_progress.c.o
+[61/443] Building C object lib/CMakeFiles/zip.dir/zip_realloc.c.o
+[62/443] Building C object lib/CMakeFiles/zip.dir/zip_open.c.o
+[63/443] Building C object lib/CMakeFiles/zip.dir/zip_rename.c.o
+[64/443] Building C object lib/CMakeFiles/zip.dir/zip_replace.c.o
+[65/443] Building C object lib/CMakeFiles/zip.dir/zip_set_archive_comment.c.o
+[66/443] Building C object lib/CMakeFiles/zip.dir/zip_set_archive_flag.c.o
+[67/443] Building C object lib/CMakeFiles/zip.dir/zip_set_file_comment.c.o
+[68/443] Building C object lib/CMakeFiles/zip.dir/zip_set_default_password.c.o
+[69/443] Building C object lib/CMakeFiles/zip.dir/zip_set_file_compression.c.o
+[70/443] Building C object lib/CMakeFiles/zip.dir/zip_set_name.c.o
+[71/443] Building C object lib/CMakeFiles/zip.dir/zip_source_accept_empty.c.o
+[72/443] Building C object lib/CMakeFiles/zip.dir/zip_source_at_eof.c.o
+[73/443] Building C object lib/CMakeFiles/zip.dir/zip_source_begin_write.c.o
+[74/443] Building C object lib/CMakeFiles/zip.dir/zip_source_begin_write_cloning.c.o
+[75/443] Building C object lib/CMakeFiles/zip.dir/zip_source_call.c.o
+[76/443] Building C object lib/CMakeFiles/zip.dir/zip_source_close.c.o
+[77/443] Building C object lib/CMakeFiles/zip.dir/zip_source_commit_write.c.o
+[78/443] Building C object lib/CMakeFiles/zip.dir/zip_source_buffer.c.o
+[79/443] Building C object lib/CMakeFiles/zip.dir/zip_source_compress.c.o
+[80/443] Building C object lib/CMakeFiles/zip.dir/zip_source_error.c.o
+[81/443] Building C object lib/CMakeFiles/zip.dir/zip_source_crc.c.o
+[82/443] Building C object lib/CMakeFiles/zip.dir/zip_source_file_stdio.c.o
+[83/443] Building C object lib/CMakeFiles/zip.dir/zip_source_file_common.c.o
+[84/443] Building C object lib/CMakeFiles/zip.dir/zip_source_free.c.o
+[85/443] Building C object lib/CMakeFiles/zip.dir/zip_source_function.c.o
+[86/443] Building C object lib/CMakeFiles/zip.dir/zip_source_get_dostime.c.o
+[87/443] Building C object lib/CMakeFiles/zip.dir/zip_source_is_deleted.c.o
+[88/443] Building C object lib/CMakeFiles/zip.dir/zip_source_get_file_attributes.c.o
+[89/443] Building C object lib/CMakeFiles/zip.dir/zip_source_open.c.o
+[90/443] Building C object lib/CMakeFiles/zip.dir/zip_source_layered.c.o
+[91/443] Building C object lib/CMakeFiles/zip.dir/zip_source_pass_to_lower_layer.c.o
+[92/443] Building C object lib/CMakeFiles/zip.dir/zip_source_pkware_decode.c.o
+[93/443] Building C object lib/CMakeFiles/zip.dir/zip_source_read.c.o
+[94/443] Building C object lib/CMakeFiles/zip.dir/zip_source_pkware_encode.c.o
+[95/443] Building C object lib/CMakeFiles/zip.dir/zip_source_remove.c.o
+[96/443] Building C object lib/CMakeFiles/zip.dir/zip_source_rollback_write.c.o
+[97/443] Building C object lib/CMakeFiles/zip.dir/zip_source_seek_write.c.o
+[98/443] Building C object lib/CMakeFiles/zip.dir/zip_source_seek.c.o
+[99/443] Building C object lib/CMakeFiles/zip.dir/zip_source_stat.c.o
+[100/443] Building C object lib/CMakeFiles/zip.dir/zip_source_supports.c.o
+[101/443] Building C object lib/CMakeFiles/zip.dir/zip_source_tell.c.o
+[102/443] Building C object lib/CMakeFiles/zip.dir/zip_source_tell_write.c.o
+[103/443] Building C object lib/CMakeFiles/zip.dir/zip_source_write.c.o
+[104/443] Building C object lib/CMakeFiles/zip.dir/zip_source_zip.c.o
+[105/443] Building C object lib/CMakeFiles/zip.dir/zip_source_window.c.o
+[106/443] Building C object lib/CMakeFiles/zip.dir/zip_stat.c.o
+[107/443] Building C object lib/CMakeFiles/zip.dir/zip_source_zip_new.c.o
+[108/443] Building C object lib/CMakeFiles/zip.dir/zip_stat_index.c.o
+[109/443] Building C object lib/CMakeFiles/zip.dir/zip_stat_init.c.o
+[110/443] Building C object lib/CMakeFiles/zip.dir/zip_strerror.c.o
+[111/443] Building C object lib/CMakeFiles/zip.dir/zip_string.c.o
+[112/443] Building C object lib/CMakeFiles/zip.dir/zip_unchange.c.o
+[113/443] Building C object lib/CMakeFiles/zip.dir/zip_unchange_all.c.o
+[114/443] Building C object lib/CMakeFiles/zip.dir/zip_unchange_archive.c.o
+[115/443] Building C object lib/CMakeFiles/zip.dir/zip_unchange_data.c.o
+[116/443] Building C object lib/CMakeFiles/zip.dir/zip_err_str.c.o
+[117/443] Building C object lib/CMakeFiles/zip.dir/zip_utf-8.c.o
+[118/443] Building C object lib/CMakeFiles/zip.dir/zip_random_unix.c.o
+[119/443] Building C object lib/CMakeFiles/zip.dir/zip_source_file_stdio_named.c.o
+[120/443] Building C object lib/CMakeFiles/zip.dir/zip_crypto_openssl.c.o
+[121/443] Building C object lib/CMakeFiles/zip.dir/zip_winzip_aes.c.o
+[122/443] Building C object lib/CMakeFiles/zip.dir/zip_source_winzip_aes_encode.c.o
+[123/443] Building C object lib/CMakeFiles/zip.dir/zip_source_winzip_aes_decode.c.o
+[124/443] Linking C shared library lib/libzip.so.5.6
+[125/443] Building C object src/CMakeFiles/shell.dir/shell/command.c.o
+[126/443] Building C object src/CMakeFiles/shell.dir/shell/complete.c.o
+[127/443] Building C object src/CMakeFiles/shell.dir/shell/error_message.c.o
+[128/443] Building C object src/CMakeFiles/shell.dir/shell/shell.c.o
+[129/443] Building C object src/CMakeFiles/shell.dir/shell/help.c.o
+[130/443] Building C object src/CMakeFiles/shell.dir/shell/no_line_editing.c.o
+[131/443] Creating library symlink lib/libzip.so.5 lib/libzip.so
+[132/443] Building C object src/CMakeFiles/shell.dir/shell/words.c.o
+[133/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/siphash.c.o
+[134/443] Linking C static library src/libshell.a
+[135/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_add.c.o
+[136/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_add_dir.c.o
+[137/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_add_entry.c.o
+[138/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_algorithm_deflate.c.o
+[139/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_buffer.c.o
+[140/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_crypto.c.o
+[141/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_delete.c.o
+[142/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_dir_add.c.o
+[143/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_close.c.o
+[144/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_discard.c.o
+[145/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_entry.c.o
+[146/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error.c.o
+[147/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error_clear.c.o
+[148/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error_get.c.o
+[149/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error_get_sys_type.c.o
+[150/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_dirent.c.o
+[151/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error_to_str.c.o
+[152/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_error_strerror.c.o
+[153/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_extra_field_api.c.o
+[154/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fclose.c.o
+[155/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_extra_field.c.o
+[156/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fdopen.c.o
+[157/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_add.c.o
+[158/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_error_clear.c.o
+[159/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_error_get.c.o
+[160/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_get_comment.c.o
+[161/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_get_external_attributes.c.o
+[162/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_get_offset.c.o
+[163/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_rename.c.o
+[164/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_replace.c.o
+[165/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_set_comment.c.o
+[166/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_set_encryption.c.o
+[167/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_set_external_attributes.c.o
+[168/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_set_mtime.c.o
+[169/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_file_strerror.c.o
+[170/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fopen.c.o
+[171/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fopen_encrypted.c.o
+[172/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fopen_index.c.o
+[173/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fopen_index_encrypted.c.o
+[174/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fread.c.o
+[175/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_fseek.c.o
+[176/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_ftell.c.o
+[177/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_archive_comment.c.o
+[178/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_encryption_implementation.c.o
+[179/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_archive_flag.c.o
+[180/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_file_comment.c.o
+[181/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_name.c.o
+[182/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_num_files.c.o
+[183/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_get_num_entries.c.o
+[184/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_io_util.c.o
+[185/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_hash.c.o
+[186/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_libzip_version.c.o
+[187/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_memdup.c.o
+[188/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_name_locate.c.o
+[189/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_new.c.o
+[190/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_pkware.c.o
+[191/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_progress.c.o
+[192/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_realloc.c.o
+[193/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_open.c.o
+[194/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_rename.c.o
+[195/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_replace.c.o
+[196/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_archive_comment.c.o
+[197/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_archive_flag.c.o
+[198/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_default_password.c.o
+[199/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_file_comment.c.o
+[200/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_file_compression.c.o
+[201/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_set_name.c.o
+[202/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_accept_empty.c.o
+[203/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_at_eof.c.o
+[204/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_begin_write.c.o
+[205/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_begin_write_cloning.c.o
+[206/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_call.c.o
+[207/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_close.c.o
+[208/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_commit_write.c.o
+[209/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_buffer.c.o
+[210/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_compress.c.o
+[211/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_crc.c.o
+[212/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_error.c.o
+[213/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_file_stdio.c.o
+[214/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_file_common.c.o
+[215/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_free.c.o
+[216/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_get_dostime.c.o
+[217/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_function.c.o
+[218/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_is_deleted.c.o
+[219/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_get_file_attributes.c.o
+[220/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_layered.c.o
+[221/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_open.c.o
+[222/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_pass_to_lower_layer.c.o
+[223/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_pkware_decode.c.o
+[224/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_pkware_encode.c.o
+[225/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_read.c.o
+[226/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_rollback_write.c.o
+[227/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_remove.c.o
+[228/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_seek_write.c.o
+[229/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_seek.c.o
+[230/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_stat.c.o
+[231/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_supports.c.o
+[232/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_tell.c.o
+[233/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_tell_write.c.o
+[234/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_write.c.o
+[235/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_zip.c.o
+[236/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_window.c.o
+[237/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_stat.c.o
+[238/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_zip_new.c.o
+[239/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_stat_index.c.o
+[240/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_strerror.c.o
+[241/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_stat_init.c.o
+[242/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_unchange.c.o
+[243/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_string.c.o
+[244/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_unchange_all.c.o
+[245/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_unchange_archive.c.o
+[246/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_unchange_data.c.o
+[247/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_utf-8.c.o
+[248/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_err_str.c.o
+[249/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_random_unix.c.o
+[250/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_file_stdio_named.c.o
+[251/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_crypto_openssl.c.o
+[252/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_winzip_aes.c.o
+[253/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_winzip_aes_decode.c.o
+[254/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/__/regress/programs/zip_nonrandom.c.o
+[255/443] Generating zipsh_commands.c
+[256/443] Building C object lib/CMakeFiles/zip_nonrandom.dir/zip_source_winzip_aes_encode.c.o
+[257/443] Linking C shared library lib/libzip_nonrandom.so
+[258/443] Building C object src/CMakeFiles/zipcmp.dir/diff_output.c.o
+[259/443] Building C object src/CMakeFiles/zipmerge.dir/zipmerge.c.o
+[260/443] Building C object src/CMakeFiles/zipcmp.dir/zipcmp.c.o
+[261/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/argument_types.c.o
+[262/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/cat.c.o
+[263/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/delete.c.o
+[264/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/file_reference.c.o
+<WORKSPACE>/libzip-sustained/src/zipsh/file_reference.c: In function ‘file_reference_create’:
+<WORKSPACE>/libzip-sustained/src/zipsh/file_reference.c:64:9: warning: ignoring return value of ‘asprintf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   64 |         asprintf(&file_ref->error_info, "at index %" PRIu64, file_ref->index);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<WORKSPACE>/libzip-sustained/src/zipsh/file_reference.c:74:9: warning: ignoring return value of ‘asprintf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   74 |         asprintf(&file_ref->error_info, "'%s'", invocation->arguments[0].string);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[265/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/list.c.o
+[266/443] Building C object src/CMakeFiles/ziptool.dir/ziptool.c.o
+[267/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/rename.c.o
+[268/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/set_default_password.c.o
+[269/443] Building C object src/CMakeFiles/zipsh.dir/zipsh_commands.c.o
+[270/443] Building C object src/CMakeFiles/zipsh.dir/zipsh/zipsh.c.o
+[271/443] Building C object regress/CMakeFiles/add_from_filep.dir/programs/add_from_filep.c.o
+[272/443] Building C object regress/CMakeFiles/can_clone_file.dir/programs/can_clone_file.c.o
+[273/443] Building C object regress/CMakeFiles/crypto_clear.dir/__/lib/zip_crypto.c.o
+[274/443] Building C object regress/CMakeFiles/crypto_clear.dir/programs/crypto_clear.c.o
+[275/443] Building C object regress/CMakeFiles/filep_error.dir/programs/filep_error.c.o
+[276/443] Building C object regress/CMakeFiles/fopen_unchanged.dir/programs/fopen_unchanged.c.o
+[277/443] Building C object regress/CMakeFiles/exact_read_integrity.dir/programs/exact_read_integrity.c.o
+[278/443] Building C object regress/CMakeFiles/fread.dir/programs/fread.c.o
+[279/443] Building C object regress/CMakeFiles/fseek.dir/programs/fseek.c.o
+[280/443] Building C object regress/CMakeFiles/source_seek.dir/programs/source_seek.c.o
+[281/443] Building C object regress/CMakeFiles/tryopen.dir/programs/tryopen.c.o
+[282/443] Building C object regress/CMakeFiles/hole.dir/programs/hole.c.o
+[283/443] Building C object regress/CMakeFiles/hole.dir/programs/source_hole.c.o
+[284/443] Building C object regress/CMakeFiles/ziptool_regress.dir/programs/source_hole.c.o
+[285/443] Building C object regress/CMakeFiles/ziptool_regress.dir/programs/ziptool_regress.c.o
+<WORKSPACE>/libzip-sustained/regress/programs/ziptool_regress.c: In function ‘get_stdin_commands’:
+<WORKSPACE>/libzip-sustained/regress/programs/ziptool_regress.c:103:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  103 |     fgets(stdin_line, sizeof(stdin_line), stdin);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[286/443] Building C object regress/CMakeFiles/ziptool_regress_nonrandom.dir/programs/source_hole.c.o
+[287/443] Building C object regress/CMakeFiles/files_differ.dir/programs/files_differ.c.o
+[288/443] Building C object ossfuzz/CMakeFiles/zip_read_file_fuzzer.dir/zip_read_file_fuzzer.c.o
+[289/443] Building C object regress/CMakeFiles/ziptool_regress_nonrandom.dir/programs/ziptool_regress.c.o
+<WORKSPACE>/libzip-sustained/regress/programs/ziptool_regress.c: In function ‘get_stdin_commands’:
+<WORKSPACE>/libzip-sustained/regress/programs/ziptool_regress.c:103:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  103 |     fgets(stdin_line, sizeof(stdin_line), stdin);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[290/443] Building C object ossfuzz/CMakeFiles/zip_read_file_fuzzer.dir/fuzz_main.c.o
+[291/443] Building C object ossfuzz/CMakeFiles/zip_read_fuzzer.dir/zip_read_fuzzer.c.o
+[292/443] Building C object ossfuzz/CMakeFiles/zip_read_fuzzer.dir/fuzz_main.c.o
+[293/443] Building C object ossfuzz/CMakeFiles/zip_read_metadata_fuzzer.dir/zip_read_metadata_fuzzer.c.o
+[294/443] Building C object ossfuzz/CMakeFiles/zip_read_metadata_fuzzer.dir/fuzz_main.c.o
+[295/443] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_aes256_file_fuzzer.dir/zip_write_encrypt_aes256_file_fuzzer.c.o
+[296/443] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_aes256_file_fuzzer.dir/fuzz_main.c.o
+[297/443] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_pkware_file_fuzzer.dir/zip_write_encrypt_pkware_file_fuzzer.c.o
+[298/443] Building C object ossfuzz/CMakeFiles/zip_write_encrypt_pkware_file_fuzzer.dir/fuzz_main.c.o
+[299/443] Building C object ossfuzz/CMakeFiles/zip_write_roundtrip_fuzzer.dir/fuzz_main.c.o
+[300/443] Building C object examples/CMakeFiles/add-compressed-data.dir/add-compressed-data.c.o
+[301/443] Building C object ossfuzz/CMakeFiles/zip_write_roundtrip_fuzzer.dir/zip_write_roundtrip_fuzzer.c.o
+<WORKSPACE>/libzip-sustained/ossfuzz/zip_write_roundtrip_fuzzer.c: In function ‘LLVMFuzzerTestOneInput’:
+<WORKSPACE>/libzip-sustained/ossfuzz/zip_write_roundtrip_fuzzer.c:120:21: warning: writing 16 bytes into a region of size 15 [-Wstringop-overflow=]
+  120 |             name[k] = (char)(u8(&st) | 0x01);
+      |             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+<WORKSPACE>/libzip-sustained/ossfuzz/zip_write_roundtrip_fuzzer.c:115:14: note: at offset [49, 64] into destination object ‘name’ of size 64
+  115 |         char name[64];
+      |              ^~~~
+[302/443] Building C object examples/CMakeFiles/autoclose-archive.dir/autoclose-archive.c.o
+[303/443] Building C object examples/CMakeFiles/in-memory.dir/in-memory.c.o
+[304/443] Preparing ZIP_SOURCE_GET_ARGS.3
+[305/443] Preparing libzip.3
+[306/443] Preparing zip.5
+[307/443] Building C object examples/CMakeFiles/open-crx.dir/open-crx.c.o
+[308/443] Preparing zip_add.3
+[309/443] Preparing zip_add_dir.3
+[310/443] Preparing zip_close.3
+[311/443] Preparing zip_compression_method_supported.3
+[312/443] Preparing zip_delete.3
+[313/443] Preparing zip_dir_add.3
+[314/443] Preparing zip_discard.3
+[315/443] Preparing zip_encryption_method_supported.3
+[316/443] Preparing zip_error.5
+[317/443] Preparing zip_error_clear.3
+[318/443] Preparing zip_error_code_system.3
+[319/443] Preparing zip_error_code_zip.3
+[320/443] Preparing zip_error_fini.3
+[321/443] Preparing zip_error_get.3
+[322/443] Preparing zip_error_get_sys_type.3
+[323/443] Preparing zip_error_init.3
+[324/443] Preparing zip_error_set_from_source.3
+[325/443] Preparing zip_error_set.3
+[326/443] Preparing zip_error_strerror.3
+[327/443] Preparing zip_error_system_type.3
+[328/443] Preparing zip_error_to_data.3
+[329/443] Preparing zip_error_to_str.3
+[330/443] Preparing zip_fclose.3
+[331/443] Preparing zip_errors.3
+[332/443] Preparing zip_fdopen.3
+[333/443] Preparing zip_file.5
+[334/443] Preparing zip_file_add.3
+[335/443] Preparing zip_file_attributes_init.3
+[336/443] Preparing zip_file_extra_field_delete.3
+[337/443] Preparing zip_file_extra_field_get.3
+[338/443] Preparing zip_file_extra_field_set.3
+[339/443] Preparing zip_file_extra_fields_count.3
+[340/443] Preparing zip_file_get_error.3
+[341/443] Preparing zip_file_get_comment.3
+[342/443] Preparing zip_file_get_external_attributes.3
+[343/443] Preparing zip_file_rename.3
+[344/443] Preparing zip_file_set_encryption.3
+[345/443] Preparing zip_file_set_comment.3
+[346/443] Preparing zip_file_set_external_attributes.3
+[347/443] Preparing zip_file_set_mtime.3
+[348/443] Preparing zip_file_strerror.3
+[349/443] Preparing zip_fopen.3
+[350/443] Preparing zip_fread.3
+[351/443] Preparing zip_fopen_encrypted.3
+[352/443] Preparing zip_fseek.3
+[353/443] Preparing zip_ftell.3
+[354/443] Preparing zip_get_archive_comment.3
+[355/443] Preparing zip_get_archive_flag.3
+[356/443] Preparing zip_get_error.3
+[357/443] Preparing zip_get_file_comment.3
+[358/443] Preparing zip_get_name.3
+[359/443] Preparing zip_get_num_files.3
+[360/443] Preparing zip_libzip_version.3
+[361/443] Preparing zip_get_num_entries.3
+[362/443] Preparing zip_name_locate.3
+[363/443] Preparing zip_open.3
+[364/443] Preparing zip_register_cancel_callback_with_state.3
+[365/443] Preparing zip_register_progress_callback.3
+[366/443] Preparing zip_register_progress_callback_with_state.3
+[367/443] Preparing zip_rename.3
+[368/443] Preparing zip_set_archive_comment.3
+[369/443] Preparing zip_set_archive_flag.3
+[370/443] Preparing zip_set_default_password.3
+[371/443] Preparing zip_set_file_comment.3
+[372/443] Preparing zip_set_file_compression.3
+[373/443] Preparing zip_source.5
+[374/443] Preparing zip_source_at_eof.3
+[375/443] Preparing zip_source_begin_write.3
+[376/443] Preparing zip_source_buffer.3
+[377/443] Preparing zip_source_buffer_fragment.3
+[378/443] Preparing zip_source_close.3
+[379/443] Preparing zip_source_commit_write.3
+[380/443] Preparing zip_source_error.3
+[381/443] Preparing zip_source_file.3
+[382/443] Preparing zip_source_filep.3
+[383/443] Preparing zip_source_free.3
+[384/443] Preparing zip_source_function.3
+[385/443] Preparing zip_source_is_seekable.3
+[386/443] Preparing zip_source_is_deleted.3
+[387/443] Preparing zip_source_layered.3
+[388/443] Preparing zip_source_keep.3
+[389/443] Preparing zip_source_open.3
+[390/443] Preparing zip_source_make_command_bitmap.3
+[391/443] Preparing zip_source_read.3
+[392/443] Preparing zip_source_pass_to_lower_layer.3
+[393/443] Preparing zip_source_rollback_write.3
+[394/443] Preparing zip_source_seek.3
+[395/443] Preparing zip_source_seek_compute_offset.3
+[396/443] Preparing zip_source_seek_write.3
+[397/443] Preparing zip_source_stat.3
+[398/443] Preparing zip_source_tell.3
+[399/443] Preparing zip_source_tell_write.3
+[400/443] Preparing zip_source_win32a.3
+[401/443] Preparing zip_source_win32handle.3
+[402/443] Preparing zip_source_win32w.3
+[403/443] Preparing zip_source_window_create.3
+[404/443] Preparing zip_source_write.3
+[405/443] Preparing zip_source_zip_file.3
+[406/443] Preparing zip_source_zip.3
+[407/443] Preparing zip_stat.3
+[408/443] Preparing zip_stat_init.3
+[409/443] Preparing zip_unchange.3
+[410/443] Preparing zip_unchange_all.3
+[411/443] Preparing zip_unchange_archive.3
+[412/443] Preparing zipcmp.1
+[413/443] Preparing zipmerge.1
+[414/443] Preparing ziptool.1
+[415/443] Linking C executable src/zipmerge
+[416/443] Linking C executable src/zipcmp
+[417/443] Linking C executable src/ziptool
+[418/443] Linking C executable src/zipsh
+[419/443] Linking C executable regress/add_from_filep
+[420/443] Linking C executable regress/can_clone_file
+[421/443] Linking C executable regress/crypto_clear
+[422/443] Linking C executable regress/exact_read_integrity
+[423/443] Linking C executable regress/filep_error
+[424/443] Linking C executable regress/fopen_unchanged
+[425/443] Linking C executable regress/fread
+[426/443] Linking C executable regress/fseek
+[427/443] Linking C executable regress/source_seek
+[428/443] Linking C executable regress/tryopen
+[429/443] Linking C executable regress/hole
+[430/443] Linking C executable regress/ziptool_regress
+[431/443] Linking C executable regress/files_differ
+[432/443] Linking C executable regress/ziptool_regress_nonrandom
+[433/443] Linking C executable ossfuzz/zip_read_file_fuzzer
+[434/443] Linking C executable ossfuzz/zip_read_fuzzer
+[435/443] cd <WORKSPACE>/libzip-evidence-sustained/full-validation/build/regress && <WORKSPACE>/build-tools/libzip-tools/lib/python3.12/site-packages/cmake/data/bin/cmake -E tar x <WORKSPACE>/libzip-sustained/regress/data/manyfiles-zip.zip && <WORKSPACE>/build-tools/libzip-tools/lib/python3.12/site-packages/cmake/data/bin/cmake -E tar x <WORKSPACE>/libzip-sustained/regress/data/bigzero-zip.zip
+[436/443] Linking C executable ossfuzz/zip_read_metadata_fuzzer
+[437/443] Linking C executable ossfuzz/zip_write_encrypt_aes256_file_fuzzer
+[438/443] Linking C executable ossfuzz/zip_write_encrypt_pkware_file_fuzzer
+[439/443] Linking C executable ossfuzz/zip_write_roundtrip_fuzzer
+[440/443] Linking C executable examples/add-compressed-data
+[441/443] Linking C executable examples/autoclose-archive
+[442/443] Linking C executable examples/in-memory
+[443/443] Linking C executable examples/open-crx

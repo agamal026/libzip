@@ -1,0 +1,142 @@
+diff --git a/.github/workflows/bsd.yml b/.github/workflows/bsd.yml
+index 9986250..4f5f56f 100644
+--- a/.github/workflows/bsd.yml
++++ b/.github/workflows/bsd.yml
+@@ -23,6 +23,6 @@ jobs:
+             # https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#adding-a-system-path
+             echo "/usr/pkg/bin" >> "$GITHUB_PATH"
+           run: |
+-            cmake -B ${{runner.workspace}}/build ${{github.workspace}}
++            cmake -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON -B ${{runner.workspace}}/build ${{github.workspace}}
+             cmake --build ${{runner.workspace}}/build --config Release
+             ctest --test-dir ${{runner.workspace}}/build --output-on-failure --no-tests=error -V -C Release
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index 706c074..6743f57 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -54,13 +54,13 @@ jobs:
+         if: ${{ runner.os != 'Windows' }}
+         working-directory: ${{runner.workspace}}/build
+         run: |
+-          cmake ${{ matrix.cmake_extra }} ${{github.workspace}}
++          cmake ${{ matrix.cmake_extra }} -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON ${{github.workspace}}
+ 
+       - name: configure (Windows)
+         if: ${{ runner.os == 'Windows' }}
+         working-directory: ${{runner.workspace}}/build
+         run: |
+-          cmake ${{ matrix.cmake_extra }} -DCMAKE_TOOLCHAIN_FILE=${{env.VCPKG_ROOT}}/scripts/buildsystems/vcpkg.cmake ${{github.workspace}}
++          cmake ${{ matrix.cmake_extra }} -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON -DCMAKE_TOOLCHAIN_FILE=${{env.VCPKG_ROOT}}/scripts/buildsystems/vcpkg.cmake ${{github.workspace}}
+ 
+       - name: build
+         working-directory: ${{runner.workspace}}/build
+diff --git a/.github/workflows/solaris.yml b/.github/workflows/solaris.yml
+index 9b802a3..d25b721 100644
+--- a/.github/workflows/solaris.yml
++++ b/.github/workflows/solaris.yml
+@@ -24,6 +24,6 @@ jobs:
+             pip install nihtest
+           run: |
+             source nihtest-venv/bin/activate
+-            cmake -B ${{runner.workspace}}/build ${{github.workspace}}
++            cmake -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON -B ${{runner.workspace}}/build ${{github.workspace}}
+             cmake --build ${{runner.workspace}}/build --config Release
+             ctest --test-dir ${{runner.workspace}}/build --output-on-failure --no-tests=error -V -C Release
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 14ee589..8f3e4cf 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -31,6 +31,7 @@ option(LIMIT_LZMA_WINDOW "Set limit for LZMA window size. Without a limit, LZMA
+ 
+ option(BUILD_TOOLS "Build tools in the src directory (zipcmp, zipmerge, ziptool)" ON)
+ option(BUILD_REGRESS "Build regression tests" ON)
++option(REQUIRE_TEST_DEPENDENCIES "Fail if regression test dependencies are missing" OFF)
+ option(BUILD_OSSFUZZ "Build fuzzers for ossfuzz" ON)
+ option(BUILD_EXAMPLES "Build examples" ON)
+ option(BUILD_DOC "Build documentation" ON)
+@@ -361,6 +362,9 @@ if(BUILD_TOOLS)
+   ADD_SUBDIRECTORY(src)
+ else(BUILD_TOOLS)
+   if(BUILD_REGRESS)
++    if(REQUIRE_TEST_DEPENDENCIES)
++      message(FATAL_ERROR "Regression tests require BUILD_TOOLS=ON; enable tools or disable BUILD_REGRESS")
++    endif()
+     message(WARNING "-- tools build has been disabled, but they are needed for regression tests; regression testing disabled")
+     set(BUILD_REGRESS OFF)
+   endif(BUILD_REGRESS)
+@@ -369,11 +373,24 @@ endif()
+ find_program(NIHTEST nihtest)
+ 
+ if(BUILD_REGRESS AND NOT NIHTEST)
++  if(REQUIRE_TEST_DEPENDENCIES)
++    message(FATAL_ERROR "Regression tests require nihtest; install it or disable BUILD_REGRESS")
++  endif()
+   message(WARNING "-- nihtest not found, regression testing disabled")
+   set(BUILD_REGRESS OFF)
+ endif()
+ 
+ if(BUILD_REGRESS)
++  if(REQUIRE_TEST_DEPENDENCIES)
++    execute_process(COMMAND "${NIHTEST}" --version
++      RESULT_VARIABLE NIHTEST_RESULT
++      OUTPUT_QUIET
++      ERROR_VARIABLE NIHTEST_ERROR
++      TIMEOUT 30)
++    if(NOT "${NIHTEST_RESULT}" STREQUAL "0")
++      message(FATAL_ERROR "Regression tests require a working nihtest executable: ${NIHTEST}\nnihtest --version failed (${NIHTEST_RESULT})\n${NIHTEST_ERROR}")
++    endif()
++  endif()
+   include(CTest)
+   add_subdirectory(regress)
+ endif()
+diff --git a/INSTALL.md b/INSTALL.md
+index aa81e8e..b1122fb 100644
+--- a/INSTALL.md
++++ b/INSTALL.md
+@@ -83,6 +83,12 @@ If you want to customize the build, you can pass additional parameters to cmake
+ `BUILD_SHARED_LIBS`
+ : set to `ON` or `OFF` to enable/disable building of shared libraries, defaults to `ON`
+ 
++`BUILD_REGRESS`
++: build regression tests, defaults to `ON`. Tests are disabled with a warning if their required tools are unavailable.
++
++`REQUIRE_TEST_DEPENDENCIES`
++: fail configuration if requested regression tests cannot be run, defaults to `OFF`. With `BUILD_REGRESS=ON`, this requires `BUILD_TOOLS=ON` and a runnable `nihtest` installation (including its Python runtime). Use `-DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON` in CI or when packaging with mandatory tests. Explicitly setting `BUILD_REGRESS=OFF` disables these checks. Optional compression and encryption libraries remain optional; tests for unavailable features can still be skipped.
++
+ `CMAKE_INSTALL_PREFIX`
+ : for setting the installation path
+ 
+diff --git a/TODO.md b/TODO.md
+index b08dc7f..cde2181 100644
+--- a/TODO.md
++++ b/TODO.md
+@@ -21,7 +21,6 @@
+ ### CI
+ 
+ - Add CI build with sanitizers enabled.
+-- Add cmake option to fail if dependencies for tests are missing, use in CI builds.
+ 
+ ### Specific Tests
+ 
+diff --git a/appveyor.yml b/appveyor.yml
+index 1960530..1cb6449 100644
+--- a/appveyor.yml
++++ b/appveyor.yml
+@@ -8,7 +8,7 @@ environment:
+     - GENERATOR: "Visual Studio 16 2019"
+       PLATFORM: x64
+       TRIPLET: x64-windows
+-      CMAKE_OPTS: "-DBUILD_SHARED_LIBS=off"
++      CMAKE_OPTS: "-DBUILD_SHARED_LIBS=off -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON"
+       CMAKE_CONFIG: Release
+       RUN_TESTS: yes
+       TOXENV: py311
+@@ -22,7 +22,7 @@ environment:
+     - GENERATOR: "Visual Studio 16 2019"
+       PLATFORM: Win32
+       TRIPLET: x86-windows
+-      CMAKE_OPTS: "-DBUILD_SHARED_LIBS=off"
++      CMAKE_OPTS: "-DBUILD_SHARED_LIBS=off -DBUILD_REGRESS=ON -DREQUIRE_TEST_DEPENDENCIES=ON"
+       CMAKE_CONFIG: Release
+       RUN_TESTS: yes
+       TOXENV: py311

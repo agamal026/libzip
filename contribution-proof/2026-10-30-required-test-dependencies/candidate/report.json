@@ -1,0 +1,245 @@
+{
+  "phase": "candidate",
+  "source": {
+    "base": "da9448dec74a14ed2d20815c15846be89fb713a0",
+    "patch_sha256": "089d7148a6d90c1e7c55328127a096a971ec36b3d5c02a33d0b33d581c4c53ec"
+  },
+  "tool_versions": {
+    "cmake": "cmake version 4.4.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+    "nihtest": "nihtest 1.11.1",
+    "ninja": "1.13.2.git.kitware.jobserver-pipe-1",
+    "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  },
+  "cases": [
+    {
+      "name": "default-missing-nihtest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/default-missing-nihtest",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DNIHTEST:FILEPATH="
+      ],
+      "started_utc": "2026-10-30T16:38:21.393216+00:00",
+      "completed_utc": "2026-10-30T16:38:26.028481+00:00",
+      "seconds": 4.635,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 0,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "bccd625b60f21df77378e18c5c35afc6b33bc55e1d3c86a2b978e5f6c215c328"
+    },
+    {
+      "name": "default-tools-disabled",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/default-tools-disabled",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DBUILD_TOOLS=OFF",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/build-tools/libzip-tools/bin/nihtest"
+      ],
+      "started_utc": "2026-10-30T16:38:21.393573+00:00",
+      "completed_utc": "2026-10-30T16:38:26.052943+00:00",
+      "seconds": 4.659,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 0,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "c5a2c2a8a3fac047e068809a50eca561c562ea2bd656750cf26069c6ebd6c975"
+    },
+    {
+      "name": "strict-missing-nihtest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/strict-missing-nihtest",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON",
+        "-DNIHTEST:FILEPATH="
+      ],
+      "started_utc": "2026-10-30T16:38:26.028638+00:00",
+      "completed_utc": "2026-10-30T16:38:29.971639+00:00",
+      "seconds": 3.943,
+      "configure_exit": 1,
+      "ctest_discovery_exit": null,
+      "discovered_tests": null,
+      "checks": {
+        "expected_configure_result": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "4c17cae4fe546f4a8675aaf1614e364637b189bad3be2a8ffa227108490c6599"
+    },
+    {
+      "name": "strict-tools-disabled",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/strict-tools-disabled",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON",
+        "-DBUILD_TOOLS=OFF",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/build-tools/libzip-tools/bin/nihtest"
+      ],
+      "started_utc": "2026-10-30T16:38:26.053132+00:00",
+      "completed_utc": "2026-10-30T16:38:29.956082+00:00",
+      "seconds": 3.903,
+      "configure_exit": 1,
+      "ctest_discovery_exit": null,
+      "discovered_tests": null,
+      "checks": {
+        "expected_configure_result": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "44fc3c57f3bdc52a1ed845365668a463239e695a95e297ab1d4de3dc93d774fd"
+    },
+    {
+      "name": "strict-tests-intentionally-disabled",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/strict-tests-intentionally-disabled",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON",
+        "-DBUILD_REGRESS=OFF",
+        "-DBUILD_TOOLS=OFF",
+        "-DNIHTEST:FILEPATH="
+      ],
+      "started_utc": "2026-10-30T16:38:29.956212+00:00",
+      "completed_utc": "2026-10-30T16:38:34.123626+00:00",
+      "seconds": 4.167,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 0,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true
+      },
+      "passed": true,
+      "log_sha256": "1250f58ec7f9b3a6da3d892a5b85a6b56eaeafbb75b6de9d1e54353db05e0e92"
+    },
+    {
+      "name": "strict-unusable-nihtest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/strict-unusable-nihtest",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/libzip-evidence-sustained/candidate/nonexistent-nihtest"
+      ],
+      "started_utc": "2026-10-30T16:38:29.971793+00:00",
+      "completed_utc": "2026-10-30T16:38:34.051595+00:00",
+      "seconds": 4.08,
+      "configure_exit": 1,
+      "ctest_discovery_exit": null,
+      "discovered_tests": null,
+      "checks": {
+        "expected_configure_result": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "f8c72de5353b2dee5c848aebb712a11ee648065e9f3e4fa1817ffe51d60653bd"
+    },
+    {
+      "name": "strict-tests-available",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/candidate/strict-tests-available",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/build-tools/libzip-tools/bin/nihtest"
+      ],
+      "started_utc": "2026-10-30T16:38:34.051741+00:00",
+      "completed_utc": "2026-10-30T16:38:38.159297+00:00",
+      "seconds": 4.108,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 199,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true
+      },
+      "passed": true,
+      "log_sha256": "2a98610df9a0ea5fb164e5f2758b516ed60028fecae218dd454d4cd3f6f71247"
+    }
+  ],
+  "source_unchanged_during_run": true,
+  "all_cases_passed": true
+}

@@ -1,0 +1,89 @@
+{
+  "source_commit": "c8eb979d0c0c5e4a9612d07c3849ec677659b165",
+  "source_tree": "9b1694dbdfdae7119c01969d2eecdc2c83913ac6",
+  "base": "da9448dec74a14ed2d20815c15846be89fb713a0",
+  "started_utc": "2026-10-30T16:44:50.385934+00:00",
+  "steps": [
+    {
+      "name": "configure",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DREQUIRE_TEST_DEPENDENCIES=ON"
+      ],
+      "started_utc": "2026-10-30T16:44:50.386075+00:00",
+      "completed_utc": "2026-10-30T16:44:55.755956+00:00",
+      "seconds": 5.37,
+      "exit_code": 0,
+      "log_bytes": 6934,
+      "log_sha256": "33f7d8bcf7073b74b37966e0c9b54d94d4b8d7e789ebd5b6132534376a6f8c98"
+    },
+    {
+      "name": "build",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "--build",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "--config",
+        "Release",
+        "--parallel",
+        "2"
+      ],
+      "started_utc": "2026-10-30T16:44:55.756926+00:00",
+      "completed_utc": "2026-10-30T16:45:05.175317+00:00",
+      "seconds": 9.418,
+      "exit_code": 0,
+      "log_bytes": 32611,
+      "log_sha256": "ddecdcbd29d2858cf62ad2fb783ca3f453bc85f843adfcfad130ab39c75c7ee8"
+    },
+    {
+      "name": "ctest-discovery",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/ctest",
+        "--test-dir",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "--show-only=json-v1",
+        "-C",
+        "Release"
+      ],
+      "started_utc": "2026-10-30T16:45:05.175646+00:00",
+      "completed_utc": "2026-10-30T16:45:05.340887+00:00",
+      "seconds": 0.165,
+      "exit_code": 0,
+      "log_bytes": 283509,
+      "log_sha256": "c1345cafb714ba3f25b33d3acf1c3c196f631ab198c88aa6e604aceff9cd1d43"
+    },
+    {
+      "name": "ctest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/ctest",
+        "--test-dir",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/build",
+        "--output-on-failure",
+        "--no-tests=error",
+        "-V",
+        "-C",
+        "Release",
+        "--output-junit",
+        "<WORKSPACE>/libzip-evidence-sustained/full-validation/ctest-results.xml"
+      ],
+      "started_utc": "2026-10-30T16:45:05.342958+00:00",
+      "completed_utc": "2026-10-30T16:45:33.672103+00:00",
+      "seconds": 28.329,
+      "exit_code": 8,
+      "log_bytes": 211212,
+      "log_sha256": "f72b5aa59e6ed00feb33c27d2c7c54837d75a7340f81edf9986d8cee78553e07"
+    }
+  ],
+  "status": "failed: ctest",
+  "platform_scope": "native Linux x86_64; hosted/other operating systems not executed",
+  "discovered_test_count": 199
+}

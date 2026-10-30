@@ -1,0 +1,113 @@
+{
+  "phase": "baseline",
+  "source": {
+    "base": "da9448dec74a14ed2d20815c15846be89fb713a0",
+    "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "tool_versions": {
+    "cmake": "cmake version 4.4.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+    "nihtest": "nihtest 1.11.1",
+    "ninja": "1.13.2.git.kitware.jobserver-pipe-1",
+    "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  },
+  "cases": [
+    {
+      "name": "default-missing-nihtest",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/baseline/default-missing-nihtest",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DNIHTEST:FILEPATH="
+      ],
+      "started_utc": "2026-10-30T16:37:03.432882+00:00",
+      "completed_utc": "2026-10-30T16:37:07.677775+00:00",
+      "seconds": 4.245,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 0,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "55fa06e16b3ebf5c15a56f54cdce5ead390c7f20d5b0515a483df865dc7c7664"
+    },
+    {
+      "name": "default-tools-disabled",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/baseline/default-tools-disabled",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DBUILD_TOOLS=OFF",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/build-tools/libzip-tools/bin/nihtest"
+      ],
+      "started_utc": "2026-10-30T16:37:03.433291+00:00",
+      "completed_utc": "2026-10-30T16:37:07.634196+00:00",
+      "seconds": 4.201,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 0,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true,
+        "expected_diagnostic": true
+      },
+      "passed": true,
+      "log_sha256": "a311ac68b223a7afcf18c4d94afc86e2ffd1fe4899b44a6e28b7229f302af5a7"
+    },
+    {
+      "name": "default-tests-available",
+      "command": [
+        "<WORKSPACE>/build-tools/libzip-tools/bin/cmake",
+        "-S",
+        "<WORKSPACE>/libzip-sustained",
+        "-B",
+        "<WORKSPACE>/libzip-evidence-sustained/baseline/default-tests-available",
+        "-G",
+        "Ninja",
+        "-DCMAKE_MAKE_PROGRAM=<WORKSPACE>/build-tools/libzip-tools/bin/ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_REGRESS=ON",
+        "-DBUILD_DOC=OFF",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DBUILD_OSSFUZZ=OFF",
+        "-DNIHTEST:FILEPATH=<WORKSPACE>/build-tools/libzip-tools/bin/nihtest"
+      ],
+      "started_utc": "2026-10-30T16:37:07.634347+00:00",
+      "completed_utc": "2026-10-30T16:37:11.648304+00:00",
+      "seconds": 4.014,
+      "configure_exit": 0,
+      "ctest_discovery_exit": 0,
+      "discovered_tests": 199,
+      "checks": {
+        "expected_configure_result": true,
+        "actual_test_discovery": true
+      },
+      "passed": true,
+      "log_sha256": "8f844519158ee79bc023a4d60035be0f27cab32a6d627247d03c0a3a2dcb53c7"
+    }
+  ],
+  "source_unchanged_during_run": true,
+  "all_cases_passed": true
+}

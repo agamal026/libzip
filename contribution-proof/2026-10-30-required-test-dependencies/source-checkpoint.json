@@ -1,0 +1,12 @@
+{
+  "verified_utc": "2026-10-30 16:43:56 UTC",
+  "repository": "agamal026/libzip",
+  "branch": "ci/require-test-dependencies-20261030",
+  "commit": "c8eb979d0c0c5e4a9612d07c3849ec677659b165",
+  "tree": "9b1694dbdfdae7119c01969d2eecdc2c83913ac6",
+  "parent": "da9448dec74a14ed2d20815c15846be89fb713a0",
+  "url": "https://github.com/agamal026/libzip/commit/c8eb979d0c0c5e4a9612d07c3849ec677659b165",
+  "head_and_tree_verified": true,
+  "validation_scope": "3 baseline and 7 candidate configuration cases; full native build/tests pending",
+  "upstream_pr": null
+}
